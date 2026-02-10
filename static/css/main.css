@@ -52,6 +52,155 @@ html,body {
   color: var(--icon-color);
 }
 
+/* Home (WORK / PLAY) split
+-------------------------------------------------- */
+
+.home-split {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - var(--navbar-height, 0px));
+}
+
+.home-panel {
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  box-shadow: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.home-panel:visited,
+.home-panel:hover,
+.home-panel:focus,
+.home-panel:active {
+  color: #000;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.home-panel:focus-visible {
+  outline: 3px solid rgba(0, 0, 0, 0.55);
+  outline-offset: -3px;
+}
+
+.home-panel-work {
+  background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%);
+}
+
+.home-panel-play {
+  background: linear-gradient(135deg, #ff5fa2 0%, #ffb354 100%);
+}
+
+.home-word {
+  display: inline-block;
+  font-size: clamp(56px, 9vw, 140px);
+  line-height: 1;
+}
+
+.home-word-work {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 4ch;
+}
+
+.home-word-play {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.home-word-play .play-letter {
+  display: inline-block;
+  transform-origin: 50% 70%;
+}
+
+/* On-load animations: JS adds then removes .is-animate-on-load. */
+.home-split.is-animate-on-load .home-word-work {
+  animation: homeWorkTypeIn 3s steps(4, end) 1 both;
+}
+
+.home-split.is-animate-on-load .home-word-play .play-letter {
+  animation: homePlayWobbleIn 3s ease-in-out 1 both;
+}
+
+@keyframes homeWorkTypeIn {
+  from { width: 0ch; }
+  to { width: 4ch; }
+}
+
+@keyframes homeWorkTypeHover {
+  from { width: 0ch; }
+  to { width: 4ch; }
+}
+
+@keyframes homePlayWobbleIn {
+  0% { transform: translateY(0) rotate(0); }
+  10% { transform: translateY(-8px) rotate(7deg); }
+  20% { transform: translateY(6px) rotate(-6deg); }
+  35% { transform: translateY(-6px) rotate(5deg); }
+  50% { transform: translateY(4px) rotate(-4deg); }
+  70% { transform: translateY(-3px) rotate(3deg); }
+  85% { transform: translateY(2px) rotate(-2deg); }
+  100% { transform: translateY(0) rotate(0); }
+}
+
+@keyframes homePlayWobbleHover {
+  0% { transform: translateY(0) rotate(0); }
+  10% { transform: translateY(-8px) rotate(7deg); }
+  20% { transform: translateY(6px) rotate(-6deg); }
+  35% { transform: translateY(-6px) rotate(5deg); }
+  50% { transform: translateY(4px) rotate(-4deg); }
+  70% { transform: translateY(-3px) rotate(3deg); }
+  85% { transform: translateY(2px) rotate(-2deg); }
+  100% { transform: translateY(0) rotate(0); }
+}
+
+/* Add some variety per-letter without changing total runtime. */
+.home-word-play .play-letter:nth-child(odd) { transform-origin: 40% 70%; }
+.home-word-play .play-letter:nth-child(even) { transform-origin: 60% 70%; }
+.home-word-play .play-letter:nth-child(1) { filter: saturate(1.05); }
+.home-word-play .play-letter:nth-child(2) { filter: saturate(1.10); }
+.home-word-play .play-letter:nth-child(3) { filter: saturate(1.06); }
+.home-word-play .play-letter:nth-child(4) { filter: saturate(1.12); }
+
+/* Hover/focus replay: only after load animation completes, and only on hover-capable devices. */
+@media (hover: hover) and (pointer: fine) {
+  .home-split:not(.is-animate-on-load) .home-panel-work:hover .home-word-work,
+  .home-split:not(.is-animate-on-load) .home-panel-work:focus-visible .home-word-work {
+    animation: homeWorkTypeHover 3s steps(4, end) 1 both;
+  }
+
+  .home-split:not(.is-animate-on-load) .home-panel-play:hover .home-word-play .play-letter,
+  .home-split:not(.is-animate-on-load) .home-panel-play:focus-visible .home-word-play .play-letter {
+    animation: homePlayWobbleHover 3s ease-in-out 1 both;
+  }
+
+  .home-panel:hover {
+    filter: saturate(1.03) brightness(1.02);
+  }
+}
+
+@media (max-width: 767px) {
+  .home-split {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-word-work,
+  .home-word-play .play-letter {
+    animation: none !important;
+  }
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   padding-bottom: 50px;
