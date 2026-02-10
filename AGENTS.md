@@ -17,6 +17,18 @@ This repo is the personal website for Carrah Lingo (home, about, blog, resume). 
 - Pages: `index.html`, `about.html`, `blog.html`, `resume.html`, `404.html`
 - Blog posts: `_posts/*.md` (name format: `YYYY-MM-DD-title.md`)
 - Assets: `static/` (CSS/images/etc), plus root-level `Carrah_Lingo_Comms_Resume.pdf`
+- Responsive design notes: `RESEARCH.md`
+
+## Responsive Design Notes
+
+- Mobile scaling is enabled by the viewport meta tag in `_layouts/layout.html`.
+- Responsive layout is mostly CSS-driven (Bootstrap 3 + custom rules in `static/css/main.css`).
+- The primary breakpoint is Bootstrap's `xs/sm` boundary at `767px/768px` (mobile nav, resume stacking, etc).
+- Navbar:
+  - Markup in `_includes/header.html` (Bootstrap collapse pattern).
+  - Mobile dropdown styling in `static/css/main.css` under `@media (max-width: 767px)`.
+- Resume:
+  - Custom flex layout and its responsive rules live in `static/css/main.css` (including tablet + mobile media queries).
 
 ## Local Development
 
