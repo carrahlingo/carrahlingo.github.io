@@ -16,6 +16,8 @@
 - Animation triggers:
   - Runs once on initial page load.
   - Runs again only when the user hovers the column (and should not loop forever).
+- Animation timing:
+  - Both text animations have a total play length of `3s`.
 
 ## UX / Professional-Grade Details To Include
 
@@ -80,6 +82,8 @@
 - Prefer CSS animation for typing effect:
   - Render WORK as an inline-block with `overflow: hidden` and animated `width` using `steps()`.
   - Optional caret effect via `border-right`.
+- Timing:
+  - Set the typing animation duration to `3s` total (caret blink, if any, should not create an infinite loop).
 - Trigger rules:
   - On initial page load, add a class to start the animation once.
   - On hover/focus, replay by removing and re-adding the animation class (requires a forced reflow in JS).
@@ -88,7 +92,9 @@
 
 - Wrap each letter of PLAY in a `span` with a per-letter CSS animation.
 - Use a wobble keyframe (small rotation + vertical translation) with a short duration.
-- Stagger letters via `animation-delay` so it feels lively but controlled.
+- Timing:
+  - Ensure the overall effect is `3s` total from first letter start to last letter finish.
+  - If staggering letters via `animation-delay`, keep delays within the 3s window (e.g., small delays that do not extend total runtime beyond 3s).
 - Trigger rules:
   - Same as WORK: play once on load, replay on hover/focus/tap via toggling a class.
 
@@ -140,4 +146,3 @@
 1. Should WORK/PLAY panels be purely visual, or do you want them clickable (e.g., WORK -> Resume, PLAY -> Blog/Photos)?
 2. Do you want the existing intro text ("Hi I'm Carrah...") to disappear entirely, or should it be incorporated subtly (e.g., small subtitle under the split)?
 3. Any specific font preference for the typewriter feel (clean mono vs vintage typewriter)?
-
