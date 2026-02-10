@@ -1,0 +1,27 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+kramdown:
+  input: GFM
+markdown: kramdown
+extensions: [smart]
+permalink: /:title.html
+_yaml_mode: loose
+_content_type: markdown
+_markdown_parser: parsedown
+#paginate: 5
+port: 5000
+safe: true
+
+
+
+# edit here to achieve your personal greatness
+url: "" # TODO: set to your canonical domain, e.g. https://carrahlingo.com
+baseurl: ""
+title: Carrah Lingo
+author: Carrah Lingo
+description: Personal site
+avatar: carrah.png
+email: ""
+github: ""
+twitter: ""
+google_analytics: ""
