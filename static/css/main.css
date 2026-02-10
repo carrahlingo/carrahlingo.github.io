@@ -106,9 +106,24 @@ html,body {
 .home-word-work {
   font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-weight: 700;
+  position: relative;
   white-space: nowrap;
+}
+
+.home-word-work .home-work-text {
+  display: inline-block;
   overflow: hidden;
-  width: 4ch;
+  width: 4ch; /* final width */
+}
+
+/* Typewriter underscore cursor. Visible only while animating. */
+.home-word-work::after {
+  content: "_";
+  position: absolute;
+  left: 0;
+  bottom: -0.08em;
+  opacity: 0;
+  transform: translateX(0ch);
 }
 
 .home-word-play {
@@ -123,8 +138,15 @@ html,body {
 }
 
 /* On-load animations: JS adds then removes .is-animate-on-load. */
-.home-split.is-animate-on-load .home-word-work {
+.home-split.is-animate-on-load .home-word-work .home-work-text {
   animation: homeWorkTypeIn 3s steps(4, end) 1 both;
+}
+
+.home-split.is-animate-on-load .home-word-work::after {
+  opacity: 1;
+  animation:
+    homeWorkCaretMove 3s steps(4, end) 1 both,
+    homeWorkCaretBlink 600ms step-end 5;
 }
 
 .home-split.is-animate-on-load .home-word-play .play-letter {
@@ -139,6 +161,16 @@ html,body {
 @keyframes homeWorkTypeHover {
   from { width: 0ch; }
   to { width: 4ch; }
+}
+
+@keyframes homeWorkCaretMove {
+  from { transform: translateX(0ch); }
+  to { transform: translateX(4ch); }
+}
+
+@keyframes homeWorkCaretBlink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
 }
 
 @keyframes homePlayWobbleIn {
@@ -173,9 +205,17 @@ html,body {
 
 /* Hover/focus replay: only after load animation completes, and only on hover-capable devices. */
 @media (hover: hover) and (pointer: fine) {
-  .home-split:not(.is-animate-on-load) .home-panel-work:hover .home-word-work,
-  .home-split:not(.is-animate-on-load) .home-panel-work:focus-visible .home-word-work {
+  .home-split:not(.is-animate-on-load) .home-panel-work:hover .home-word-work .home-work-text,
+  .home-split:not(.is-animate-on-load) .home-panel-work:focus-visible .home-word-work .home-work-text {
     animation: homeWorkTypeHover 3s steps(4, end) 1 both;
+  }
+
+  .home-split:not(.is-animate-on-load) .home-panel-work:hover .home-word-work::after,
+  .home-split:not(.is-animate-on-load) .home-panel-work:focus-visible .home-word-work::after {
+    opacity: 1;
+    animation:
+      homeWorkCaretMove 3s steps(4, end) 1 both,
+      homeWorkCaretBlink 600ms step-end 5;
   }
 
   .home-split:not(.is-animate-on-load) .home-panel-play:hover .home-word-play .play-letter,
@@ -195,7 +235,8 @@ html,body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-word-work,
+  .home-word-work::after,
+  .home-word-work .home-work-text,
   .home-word-play .play-letter {
     animation: none !important;
   }

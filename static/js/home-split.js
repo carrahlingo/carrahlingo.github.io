@@ -26,10 +26,11 @@
     }
 
     // Run the "on load" animations exactly once.
-    split.classList.add('is-animate-on-load');
+    if (!split.classList.contains('is-animate-on-load')) {
+      split.classList.add('is-animate-on-load');
+    }
     window.setTimeout(function () {
       split.classList.remove('is-animate-on-load');
     }, 3100); // 3s animation + small buffer
   });
 })();
-
