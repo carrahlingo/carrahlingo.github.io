@@ -4,6 +4,6 @@ title: My first blog post!
 author: Carrah Lingo
 comments: true
 tags:
-- Jekyll
+- Hello World
 ---
-Just getting started with Jekyll, Google Analytics, and Disqus. This is my first ever post. More to come soon!
+More to come soon!
