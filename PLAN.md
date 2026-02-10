@@ -18,6 +18,8 @@
   - Runs again only when the user hovers the column (and should not loop forever).
 - Animation timing:
   - Both text animations have a total play length of `3s`.
+ - Mobile interaction:
+   - No tap-to-retrigger on mobile; tapping anywhere within a column should immediately navigate to the corresponding Work/Play page.
 
 ## UX / Professional-Grade Details To Include
 
@@ -29,7 +31,7 @@
   - Ensure keyboard users can retrigger animations via `:focus-visible` (not hover-only).
   - Keep text as real text (not canvas/SVG) for screen readers and SEO.
 - Touch devices:
-  - Hover does not exist on most phones; provide a tap-based retrigger (e.g., tap column to replay).
+  - Hover does not exist on most phones; do not add tap-based retrigger because the panels act as full-area links on mobile.
 - Performance:
   - Implement with minimal JS and CSS animations only (no new heavy libraries).
   - If adding fonts, add only the required weights to avoid large font downloads.
@@ -86,7 +88,8 @@
   - Set the typing animation duration to `3s` total (caret blink, if any, should not create an infinite loop).
 - Trigger rules:
   - On initial page load, add a class to start the animation once.
-  - On hover/focus, replay by removing and re-adding the animation class (requires a forced reflow in JS).
+  - On desktop hover/focus, replay by removing and re-adding the animation class (requires a forced reflow in JS).
+  - On mobile/touch, do not bind click/tap handlers for replay.
 
 #### PLAY wobble animation
 
@@ -96,7 +99,8 @@
   - Ensure the overall effect is `3s` total from first letter start to last letter finish.
   - If staggering letters via `animation-delay`, keep delays within the 3s window (e.g., small delays that do not extend total runtime beyond 3s).
 - Trigger rules:
-  - Same as WORK: play once on load, replay on hover/focus/tap via toggling a class.
+  - Same as WORK: play once on load, replay on desktop hover/focus via toggling a class.
+  - On mobile/touch, do not bind click/tap handlers for replay.
 
 #### Reduced motion
 
@@ -108,10 +112,11 @@
 
 - Add a small script (either inline in `index.html` or in a new `static/js/home.js`):
   - On DOM ready, add `is-animating` classes to both panels once.
-  - On hover (`mouseenter`) and focus (`focusin`) and tap (`click`), replay the relevant animation by:
-    - Removing the class.
-    - Forcing reflow (`void el.offsetWidth;`).
-    - Re-adding the class.
+  - Only when the device supports hover/fine pointer (`(hover: hover) and (pointer: fine)`):
+    - On hover (`mouseenter`) and focus (`focusin`), replay the relevant animation by:
+      - Removing the class.
+      - Forcing reflow (`void el.offsetWidth;`).
+      - Re-adding the class.
 - Scope the JS so it only runs when the home split section is present.
 
 ## File Changes Expected
@@ -135,7 +140,7 @@
   - Tab focus to each panel: animation replays.
 - Mobile:
   - Layout stacks cleanly (WORK then PLAY).
-  - Tap each panel: animation replays.
+  - Tap each panel: navigates immediately to the Work/Play page (no animation replay).
 - Reduced motion:
   - With reduced motion enabled: no motion; words remain visible and centered.
 - Cross-page regression:
@@ -143,6 +148,6 @@
 
 ## Open Questions (Need Your Preference Before Implementation)
 
-1. Should WORK/PLAY panels be purely visual, or do you want them clickable (e.g., WORK -> Resume, PLAY -> Blog/Photos)?
+1. What are the destination URLs for the Work and Play pages (and do those pages already exist in this repo)?
 2. Do you want the existing intro text ("Hi I'm Carrah...") to disappear entirely, or should it be incorporated subtly (e.g., small subtitle under the split)?
 3. Any specific font preference for the typewriter feel (clean mono vs vintage typewriter)?
