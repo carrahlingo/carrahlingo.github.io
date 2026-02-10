@@ -15,13 +15,13 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: "" # TODO: set to your canonical domain, e.g. https://carrahlingo.com
+url: "https://carrahlingo.com"
 baseurl: ""
 title: Carrah Lingo
 author: Carrah Lingo
 description: Personal site
 avatar: carrah.png
-email: ""
-github: ""
+email: "carrahlingo@gmail.com"
+github: "carrahlingo"
 twitter: ""
 google_analytics: ""
