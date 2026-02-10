@@ -137,28 +137,23 @@ html,body {
   transform-origin: 50% 70%;
 }
 
-/* On-load animations: JS adds then removes .is-animate-on-load. */
-.home-split.is-animate-on-load .home-word-work .home-work-text {
-  animation: homeWorkTypeIn 3s steps(4, end) 1 both;
+/* Animation trigger: JS toggles .is-animating on the panel element to reliably replay. */
+.home-panel-work.is-animating .home-word-work .home-work-text {
+  animation: homeWorkType 3s steps(4, end) 1 both;
 }
 
-.home-split.is-animate-on-load .home-word-work::after {
+.home-panel-work.is-animating .home-word-work::after {
   opacity: 1;
   animation:
     homeWorkCaretMove 3s steps(4, end) 1 both,
     homeWorkCaretBlink 600ms step-end 5;
 }
 
-.home-split.is-animate-on-load .home-word-play .play-letter {
-  animation: homePlayWobbleIn 3s ease-in-out 1 both;
+.home-panel-play.is-animating .home-word-play .play-letter {
+  animation: homePlayWobble 3s ease-in-out 1 both;
 }
 
-@keyframes homeWorkTypeIn {
-  from { width: 0ch; }
-  to { width: 4ch; }
-}
-
-@keyframes homeWorkTypeHover {
+@keyframes homeWorkType {
   from { width: 0ch; }
   to { width: 4ch; }
 }
@@ -173,18 +168,7 @@ html,body {
   50%, 100% { opacity: 0; }
 }
 
-@keyframes homePlayWobbleIn {
-  0% { transform: translateY(0) rotate(0); }
-  10% { transform: translateY(-8px) rotate(7deg); }
-  20% { transform: translateY(6px) rotate(-6deg); }
-  35% { transform: translateY(-6px) rotate(5deg); }
-  50% { transform: translateY(4px) rotate(-4deg); }
-  70% { transform: translateY(-3px) rotate(3deg); }
-  85% { transform: translateY(2px) rotate(-2deg); }
-  100% { transform: translateY(0) rotate(0); }
-}
-
-@keyframes homePlayWobbleHover {
+@keyframes homePlayWobble {
   0% { transform: translateY(0) rotate(0); }
   10% { transform: translateY(-8px) rotate(7deg); }
   20% { transform: translateY(6px) rotate(-6deg); }
@@ -203,26 +187,8 @@ html,body {
 .home-word-play .play-letter:nth-child(3) { filter: saturate(1.06); }
 .home-word-play .play-letter:nth-child(4) { filter: saturate(1.12); }
 
-/* Hover/focus replay: only after load animation completes, and only on hover-capable devices. */
+/* Hover polish (separate from replay logic; replay is JS-driven). */
 @media (hover: hover) and (pointer: fine) {
-  .home-split:not(.is-animate-on-load) .home-panel-work:hover .home-word-work .home-work-text,
-  .home-split:not(.is-animate-on-load) .home-panel-work:focus-visible .home-word-work .home-work-text {
-    animation: homeWorkTypeHover 3s steps(4, end) 1 both;
-  }
-
-  .home-split:not(.is-animate-on-load) .home-panel-work:hover .home-word-work::after,
-  .home-split:not(.is-animate-on-load) .home-panel-work:focus-visible .home-word-work::after {
-    opacity: 1;
-    animation:
-      homeWorkCaretMove 3s steps(4, end) 1 both,
-      homeWorkCaretBlink 600ms step-end 5;
-  }
-
-  .home-split:not(.is-animate-on-load) .home-panel-play:hover .home-word-play .play-letter,
-  .home-split:not(.is-animate-on-load) .home-panel-play:focus-visible .home-word-play .play-letter {
-    animation: homePlayWobbleHover 3s ease-in-out 1 both;
-  }
-
   .home-panel:hover {
     filter: saturate(1.03) brightness(1.02);
   }
