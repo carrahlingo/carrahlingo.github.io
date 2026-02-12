@@ -1,7 +1,7 @@
 /* Main page with stikky-footer
 -------------------------------------------------- */
 @import "pygments.css";
-@import url(//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700);
+@import url(//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700|Courier+Prime:400,700|Righteous);
 /* Light mode */
 :root {
   --content-max-width: 768px;
@@ -64,6 +64,7 @@ html,body {
 .home-panel {
   flex: 1 1 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -73,6 +74,9 @@ html,body {
   cursor: pointer;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+  position: relative;
+  overflow: hidden;
+  perspective: 800px;
 }
 
 .home-panel:visited,
@@ -90,104 +94,112 @@ html,body {
 }
 
 .home-panel-work {
-  background: linear-gradient(135deg, #38bdf8 0%, #34d399 100%);
+  background: linear-gradient(to right, #eef4f8 40%, #f5f1f4 100%);
 }
 
 .home-panel-play {
-  background: linear-gradient(135deg, #ff5fa2 0%, #ffb354 100%);
+  background: linear-gradient(to right, #f5f1f4 0%, #fceef0 60%);
 }
 
-.home-word {
-  display: inline-block;
-  font-size: clamp(56px, 9vw, 140px);
-  line-height: 1;
+[data-theme="dark"] .home-panel-work {
+  background: linear-gradient(to right, #0a0c0f 40%, #0d0a0d 100%);
 }
 
-.home-word-work {
-  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-weight: 700;
-  position: relative;
-  white-space: nowrap;
+[data-theme="dark"] .home-panel-play {
+  background: linear-gradient(to right, #0d0a0d 0%, #0f0a0a 60%);
 }
 
-.home-word-work .home-work-text {
-  display: inline-block;
-  overflow: hidden;
-  width: 4ch; /* final width */
+/* Panel images */
+.home-panel img {
+  max-height: 35vh;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
 }
 
-/* Typewriter underscore cursor. Visible only while animating. */
-.home-word-work::after {
-  content: "_";
-  position: absolute;
-  left: 0;
-  bottom: -0.08em;
-  opacity: 0;
-  transform: translateX(0ch);
+/* Balance sizes — popper is wider/squarer, chair is taller */
+.home-panel-work img {
+  max-height: 32vh;
 }
 
-.home-word-play {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+.home-panel-play img {
+  max-height: 28vh;
+}
+
+/* Slight scale on hover */
+@media (hover: hover) and (pointer: fine) {
+  .home-panel:hover img {
+    transform: scale(1.05);
+  }
+}
+
+/* Popper starts clipped to just the cone (bottom-left region) */
+.home-panel-play img {
+  clip-path: inset(68% 68% 0% 0%);
+  transition: clip-path 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Text labels — hidden by default, shown on hover */
+.home-label {
+  display: block;
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+  font-size: clamp(16px, 2.5vw, 28px);
   font-weight: 700;
   letter-spacing: 0.06em;
+  color: #000;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-top: 16px;
+  pointer-events: none;
 }
 
-.home-word-play .play-letter {
-  display: inline-block;
-  transform-origin: 50% 70%;
+[data-theme="dark"] .home-label {
+  color: #fff;
 }
 
-/* Animation trigger: JS toggles .is-animating on the panel element to reliably replay. */
-.home-panel-work.is-animating .home-word-work .home-work-text {
-  animation: homeWorkType 3s steps(4, end) 1 both;
+.home-panel-play .home-label {
+  font-family: 'Righteous', cursive;
+  text-transform: lowercase;
 }
 
-.home-panel-work.is-animating .home-word-work::after {
-  opacity: 1;
-  animation:
-    homeWorkCaretMove 3s steps(4, end) 1 both,
-    homeWorkCaretBlink 600ms step-end 5;
+@media (hover: hover) and (pointer: fine) {
+  .home-panel:hover .home-label {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.home-panel-play.is-animating .home-word-play .play-letter {
-  animation: homePlayWobble 3s ease-in-out 1 both;
+/* Chair spin animation */
+@keyframes homeSpin {
+  from { transform: rotateY(0deg); }
+  to   { transform: rotateY(360deg); }
 }
 
-@keyframes homeWorkType {
-  from { width: 0ch; }
-  to { width: 4ch; }
+.home-panel-work.is-animating img {
+  animation: homeSpin 1s cubic-bezier(0.4, 0, 0.2, 1) 1 both;
 }
 
-@keyframes homeWorkCaretMove {
-  from { transform: translateX(0ch); }
-  to { transform: translateX(4ch); }
+/* Popper confetti reveal animation */
+@keyframes homeConfetti {
+  0%   { clip-path: inset(68% 68% 0% 0%); transform: scale(1); }
+  40%  { clip-path: inset(25% 25% 0% 0%); transform: scale(1.05); }
+  100% { clip-path: inset(0% 0% 0% 0%);   transform: scale(1); }
 }
 
-@keyframes homeWorkCaretBlink {
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
+.home-panel-play.is-animating img {
+  animation: homeConfetti 0.8s cubic-bezier(0.22, 1, 0.36, 1) 1 both;
 }
 
-@keyframes homePlayWobble {
-  0% { transform: translateY(0) rotate(0); }
-  10% { transform: translateY(-8px) rotate(7deg); }
-  20% { transform: translateY(6px) rotate(-6deg); }
-  35% { transform: translateY(-6px) rotate(5deg); }
-  50% { transform: translateY(4px) rotate(-4deg); }
-  70% { transform: translateY(-3px) rotate(3deg); }
-  85% { transform: translateY(2px) rotate(-2deg); }
-  100% { transform: translateY(0) rotate(0); }
+/* After confetti animation ends, keep it fully revealed */
+.home-panel-play.was-animated img {
+  clip-path: inset(0% 0% 0% 0%);
 }
 
-/* Add some variety per-letter without changing total runtime. */
-.home-word-play .play-letter:nth-child(odd) { transform-origin: 40% 70%; }
-.home-word-play .play-letter:nth-child(even) { transform-origin: 60% 70%; }
-.home-word-play .play-letter:nth-child(1) { filter: saturate(1.05); }
-.home-word-play .play-letter:nth-child(2) { filter: saturate(1.10); }
-.home-word-play .play-letter:nth-child(3) { filter: saturate(1.06); }
-.home-word-play .play-letter:nth-child(4) { filter: saturate(1.12); }
-
-/* Hover polish (separate from replay logic; replay is JS-driven). */
+/* Hover polish */
 @media (hover: hover) and (pointer: fine) {
   .home-panel:hover {
     filter: saturate(1.03) brightness(1.02);
@@ -198,13 +210,28 @@ html,body {
   .home-split {
     flex-direction: column;
   }
+  .home-panel-work {
+    background: linear-gradient(to bottom, #eef4f8 40%, #f5f1f4 100%);
+  }
+  .home-panel-play {
+    background: linear-gradient(to bottom, #f5f1f4 0%, #fceef0 60%);
+  }
+  [data-theme="dark"] .home-panel-work {
+    background: linear-gradient(to bottom, #0a0c0f 40%, #0d0a0d 100%);
+  }
+  [data-theme="dark"] .home-panel-play {
+    background: linear-gradient(to bottom, #0d0a0d 0%, #0f0a0a 60%);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-word-work::after,
-  .home-word-work .home-work-text,
-  .home-word-play .play-letter {
+  .home-panel-work.is-animating img,
+  .home-panel-play.is-animating img {
     animation: none !important;
+  }
+  .home-panel-play img {
+    clip-path: inset(0) !important;
+    transition: none !important;
   }
 }
 
@@ -527,6 +554,48 @@ a:hover {
   max-width: 90vw;
   margin: 0 auto;
   border-radius: 0;
+}
+
+/* About page: photo left, copy right */
+.about-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.about-photo {
+  flex-shrink: 0;
+}
+
+.about-photo img {
+  display: block;
+  width: 280px;
+  height: auto;
+  max-width: 100%;
+}
+
+.about-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-copy h4 {
+  margin-top: 0;
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .about-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-photo img {
+    width: 240px;
+  }
 }
 .blog-post{
   padding-top: 15px;
@@ -990,5 +1059,249 @@ details summary::-webkit-details-marker {
   .resume-meta {
     font-size: 80%;
     line-height: 80%;
+  }
+}
+
+/* Shelf page — shared layout for Play & Work
+-------------------------------------------------- */
+
+.shelf-page {
+  padding: 40px 20px 60px;
+  background-color: #fff;
+}
+
+.shelf-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Override site-wide link underline highlight on shelf items */
+.shelf-page .shelf-item,
+.shelf-page .shelf-item:hover,
+.shelf-page .shelf-item:focus,
+.shelf-page .shelf-item:visited,
+.shelf-page .shelf-item:active {
+  box-shadow: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Individual shelf */
+.shelf {
+  position: relative;
+}
+
+.shelf-bg {
+  position: relative;
+  aspect-ratio: 4 / 3;
+}
+
+/* Shelf bar image — pre-cropped to just the wooden bar */
+.shelf-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+/* Shelf label */
+.shelf-label {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  z-index: 2;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #2c2017;
+  margin: 0;
+  padding: 0;
+}
+
+[data-theme="dark"] .shelf-label {
+  color: #d4c4b0;
+}
+
+/* Surface area where items sit — bottom aligns to the cropped shelf image */
+.shelf-surface {
+  position: absolute;
+  bottom: 5.5%;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 28px;
+  padding: 0 24px;
+  z-index: 1;
+}
+
+#events-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#podcast-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#podcast-shelf .shelf-item:first-child {
+  flex: 0 1 48%;
+}
+
+#podcast-shelf .shelf-item:first-child img {
+  max-height: 312px;
+}
+
+#podcast-shelf .shelf-item:last-child {
+  transform: translateY(7%);
+}
+
+#podcast-shelf .shelf-item:last-child img {
+  max-height: 136px;
+}
+
+/* Base item styles */
+.shelf-item {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 0 1 40%;
+  transition: transform 250ms ease, box-shadow 250ms ease, filter 250ms ease;
+}
+
+.shelf-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Object variant — transparent PNGs with drop-shadow */
+.shelf-item--object {
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+}
+
+.shelf-item--object img {
+  max-height: 210px;
+  object-fit: contain;
+}
+
+.shelf-item--object:hover {
+  transform: translateY(-6px) scale(1.04);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+}
+
+/* Framed variant — CSS picture frame with white mat */
+.shelf-item--framed {
+  background: #fff;
+  border: 1px solid #d4c8b8;
+  padding: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.shelf-item--framed img {
+  max-height: 210px;
+  object-fit: cover;
+}
+
+.shelf-item--framed:hover {
+  transform: rotate(0deg) translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Rotation variants for framed items */
+.shelf-item--tilt-left {
+  transform: rotate(-3deg);
+}
+
+.shelf-item--tilt-right {
+  transform: rotate(3deg);
+}
+
+/* Focus-visible outlines for keyboard nav */
+.shelf-item:focus-visible {
+  outline: 3px solid #5c4a3a;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .shelf-item:focus-visible {
+  outline-color: #d4c4b0;
+}
+
+.shelf-item--object:focus-visible {
+  transform: translateY(-4px);
+}
+
+.shelf-item--framed:focus-visible {
+  transform: rotate(0deg) translateY(-4px);
+}
+
+/* Dark mode */
+[data-theme="dark"] .shelf-item--framed {
+  background: #2a2520;
+  border-color: #4a4035;
+}
+
+/* Responsive — mobile (single column) */
+@media (max-width: 767px) {
+  .shelf-page {
+    padding: 24px 16px 40px;
+  }
+
+  .shelf-container {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 540px;
+  }
+
+  .shelf-bg {
+    aspect-ratio: 3 / 2;
+  }
+
+  .shelf-label {
+    font-size: 16px;
+    top: 12px;
+    left: 14px;
+  }
+
+  .shelf-surface {
+    padding: 0 16px 10px;
+  }
+
+  .shelf-item--object img {
+    max-height: 160px;
+  }
+
+  .shelf-item--framed img {
+    max-height: 160px;
+  }
+}
+
+/* Responsive — extra small */
+@media (max-width: 400px) {
+  .shelf-bg {
+    aspect-ratio: 1 / 1;
+  }
+
+  .shelf-item--object img {
+    max-height: 120px;
+  }
+
+  .shelf-item--framed img {
+    max-height: 120px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .shelf-item {
+    transition: none;
   }
 }
