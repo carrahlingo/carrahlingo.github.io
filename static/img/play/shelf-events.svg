@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#7A6B5A"/>
+  <rect y="520" width="800" height="80" fill="#5E5040"/>
+  <rect y="515" width="800" height="8" fill="#4E422F" rx="2"/>
+  <text x="400" y="300" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#D4C4A8" opacity="0.5">Shelf background — replace with real photo</text>
+</svg>

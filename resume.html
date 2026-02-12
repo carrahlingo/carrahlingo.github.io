@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: Carrah M. Lingo's Resume
+title: Carrah Lingo's Resume
 ---
 
 <div class="resume-page">
@@ -11,16 +11,25 @@ title: Carrah M. Lingo's Resume
 					<a href="/"><img src="{{ site.baseurl }}static/img/{{ site.avatar }}" class="resume-photo" alt=""></a>
 				</div>
 
-				<h1 class="resume-name">Carrah M. Lingo</h1>
+				<h1 class="resume-name">Carrah Lingo</h1>
 			<p>
-				<a href="tel:+18438134613">843 813 4613</a>
-			</p>
 			<address>
 				Atlanta, GA (relocating to New York, NY by July 2026)
 			</address>
 			<p>
-				<a href="mailto:carrahlingo@gmail.com">carrahlingo@gmail.com</a>
+				<a id="resume-email" href="#" aria-label="Email" role="button">Email me!</a>
 			</p>
+			<script>
+			(function() {
+				var el = document.getElementById('resume-email');
+				var parts = ['carrahlingo', 'gmail', 'com'];
+				el.addEventListener('click', function(e) {
+					e.preventDefault();
+					var addr = parts[0] + '@' + parts[1] + '.' + parts[2];
+					window.location.href = 'mailto:' + addr;
+				});
+			})();
+			</script>
 				<p>
 					<a href="https://linkedin.com/in/carrahlingo" aria-label="LinkedIn">
 						<i class="fa fa-linkedin"></i>
@@ -87,14 +96,6 @@ title: Carrah M. Lingo's Resume
 					<p>
 						-Wrote features for the corporate magazine, translating highly technical engineering concepts for non-technical audiences.
 					</p>
-				</article>
-
-				<article class="resume-item">
-					<header>
-						<h1 class="resume-item-title">Public Relations Specialist I</h1>
-						<span class="resume-company">Santee Cooper</span>
-						<span class="resume-meta"><address>Moncks Corner, SC</address><time>Aug 2019 - Jan 2022</time></span>
-					</header>
 					<p>
 						-Produced talking points for C-suite executives and collaborated with media relations by writing press releases and assisting with media days.
 					</p>
