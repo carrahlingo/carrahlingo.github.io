@@ -52,185 +52,272 @@ html,body {
   color: var(--icon-color);
 }
 
-/* Home (WORK / PLAY) split
+/* Home — "Welcome to Carrah's Desk"
 -------------------------------------------------- */
 
-.home-split {
-  display: flex;
-  width: 100%;
-  min-height: calc(100vh - var(--navbar-height, 0px));
+.home-room {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
 }
 
-.home-panel {
-  flex: 1 1 50%;
+/* Welcome area */
+.home-welcome {
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.home-welcome.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Greeting text */
+.home-greeting {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--font-color);
+  margin: 0;
+}
+
+/* Desk scene */
+.home-desk-scene {
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.home-desk-scene.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Items row — sits above desk, overlaps onto desk surface */
+.home-desk-items {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -4%;
+}
+
+/* Individual item link */
+.home-desk-link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #000;
+  justify-content: space-between;
+  flex: 1;
   text-decoration: none;
+  color: inherit;
   box-shadow: none;
   cursor: pointer;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  position: relative;
-  overflow: hidden;
-  perspective: 800px;
+  transition: transform 0.25s ease;
 }
 
-.home-panel:visited,
-.home-panel:hover,
-.home-panel:focus,
-.home-panel:active {
-  color: #000;
-  text-decoration: none;
+.home-desk-link,
+.home-desk-link:visited,
+.home-desk-link:hover,
+.home-desk-link:focus,
+.home-desk-link:active {
   box-shadow: none;
+  text-decoration: none;
+  color: inherit;
 }
 
-.home-panel:focus-visible {
+.home-desk-link:focus-visible {
   outline: 3px solid rgba(0, 0, 0, 0.55);
-  outline-offset: -3px;
+  outline-offset: 4px;
+  border-radius: 4px;
 }
 
-.home-panel-work {
-  background: linear-gradient(to right, #eef4f8 40%, #f5f1f4 100%);
+[data-theme="dark"] .home-desk-link:focus-visible {
+  outline-color: #d4c4b0;
 }
 
-.home-panel-play {
-  background: linear-gradient(to right, #f5f1f4 0%, #fceef0 60%);
-}
-
-[data-theme="dark"] .home-panel-work {
-  background: linear-gradient(to right, #0a0c0f 40%, #0d0a0d 100%);
-}
-
-[data-theme="dark"] .home-panel-play {
-  background: linear-gradient(to right, #0d0a0d 0%, #0f0a0a 60%);
-}
-
-/* Panel images */
-.home-panel img {
-  max-height: 35vh;
-  width: auto;
-  object-fit: contain;
-  display: block;
-  pointer-events: none;
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
-  transition: transform 0.3s ease;
-}
-
-/* Balance sizes — popper is wider/squarer, chair is taller */
-.home-panel-work img {
-  max-height: 32vh;
-}
-
-.home-panel-play img {
-  max-height: 28vh;
-}
-
-/* Slight scale on hover */
+/* Hover — lift each item individually (matches shelf-item--object on Play page) */
 @media (hover: hover) and (pointer: fine) {
-  .home-panel:hover img {
-    transform: scale(1.05);
+  .home-desk-obj {
+    transition: transform 250ms ease, filter 250ms ease;
+  }
+
+  .home-desk-link:hover .home-desk-obj {
+    transform: translateY(-6px) scale(1.04);
+    filter: drop-shadow(0 6px 14px rgba(180, 130, 60, 0.45));
   }
 }
 
-/* Popper starts clipped to just the cone (bottom-left region) */
-.home-panel-play img {
-  clip-path: inset(68% 68% 0% 0%);
-  transition: clip-path 0.8s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-/* Text labels — hidden by default, shown on hover */
-.home-label {
-  display: block;
-  font-family: 'Courier Prime', 'Courier New', Courier, monospace;
-  font-size: clamp(16px, 2.5vw, 28px);
+/* Labels — hidden by default, revealed on hover (desktop) */
+.home-desk-label {
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: #000;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  margin-top: 16px;
-  pointer-events: none;
-}
-
-[data-theme="dark"] .home-label {
-  color: #fff;
-}
-
-.home-panel-play .home-label {
+  color: var(--font-color);
+  margin-bottom: 12px;
   font-family: 'Righteous', cursive;
   text-transform: lowercase;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .home-panel:hover .home-label {
+  .home-desk-label {
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  .home-desk-link:hover .home-desk-label {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-/* Chair spin animation */
-@keyframes homeSpin {
-  from { transform: rotateY(0deg); }
-  to   { transform: rotateY(360deg); }
+/* Objects container — items sit side-by-side, bottoms aligned to desk surface */
+.home-desk-objects {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
 }
 
-.home-panel-work.is-animating img {
-  animation: homeSpin 1s cubic-bezier(0.4, 0, 0.2, 1) 1 both;
+/* Base object styles */
+.home-desk-obj {
+  display: block;
+  width: auto;
+  object-fit: contain;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.18));
+  transition: filter 0.25s ease;
 }
 
-/* Popper confetti reveal animation */
-@keyframes homeConfetti {
-  0%   { clip-path: inset(68% 68% 0% 0%); transform: scale(1); }
-  40%  { clip-path: inset(25% 25% 0% 0%); transform: scale(1.05); }
-  100% { clip-path: inset(0% 0% 0% 0%);   transform: scale(1); }
+/* Work side items */
+.home-desk-plant {
+  max-height: 294px;
+  margin-bottom: -108px;
+  margin-left: -80px;
+  margin-right: -30px;
 }
 
-.home-panel-play.is-animating img {
-  animation: homeConfetti 0.8s cubic-bezier(0.22, 1, 0.36, 1) 1 both;
+.home-desk-laptop {
+  max-height: 130px;
+  margin-left: -110px;
 }
 
-/* After confetti animation ends, keep it fully revealed */
-.home-panel-play.was-animated img {
-  clip-path: inset(0% 0% 0% 0%);
+.home-desk-mug {
+  max-height: 70px;
+  margin-bottom: 8px;
 }
 
-/* Hover polish */
-@media (hover: hover) and (pointer: fine) {
-  .home-panel:hover {
-    filter: saturate(1.03) brightness(1.02);
-  }
+/* Work side — shift group to the left */
+.home-desk-work .home-desk-objects {
+  margin-right: 40px;
 }
 
+/* Play side — shift group to the right */
+.home-desk-play .home-desk-objects {
+  margin-left: 50px;
+}
+
+.home-desk-disco {
+  max-height: 78px;
+  margin-bottom: 12px;
+}
+
+.home-desk-mic {
+  max-height: 120px;
+  margin-right: -45px;
+}
+
+.home-desk-poppy {
+  max-height: 158px;
+  margin-bottom: 12px;
+}
+
+/* Desk image */
+.home-desk-img {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+/* Responsive — mobile */
 @media (max-width: 767px) {
-  .home-split {
-    flex-direction: column;
+  .home-room {
+    padding: 32px 12px 48px;
   }
-  .home-panel-work {
-    background: linear-gradient(to bottom, #eef4f8 40%, #f5f1f4 100%);
+
+  .home-welcome {
+    margin-bottom: 28px;
   }
-  .home-panel-play {
-    background: linear-gradient(to bottom, #f5f1f4 0%, #fceef0 60%);
+
+  .home-desk-objects {
+    gap: 4px;
   }
-  [data-theme="dark"] .home-panel-work {
-    background: linear-gradient(to bottom, #0a0c0f 40%, #0d0a0d 100%);
+
+  .home-desk-scene {
+    padding: 0 8px;
   }
-  [data-theme="dark"] .home-panel-play {
-    background: linear-gradient(to bottom, #0d0a0d 0%, #0f0a0a 60%);
+
+  .home-desk-work .home-desk-objects {
+    margin-right: 10px;
+  }
+
+  .home-desk-play .home-desk-objects {
+    margin-left: 10px;
+  }
+
+  .home-desk-plant {
+    max-height: 160px;
+    margin-bottom: -60px;
+    margin-left: -10px;
+    margin-right: -15px;
+  }
+
+  .home-desk-laptop {
+    max-height: 75px;
+    margin-left: -55px;
+  }
+
+  .home-desk-mug {
+    max-height: 40px;
+  }
+
+  .home-desk-disco {
+    max-height: 45px;
+  }
+
+  .home-desk-mic {
+    max-height: 70px;
+    margin-right: -20px;
+  }
+
+  .home-desk-poppy {
+    max-height: 90px;
   }
 }
 
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .home-panel-work.is-animating img,
-  .home-panel-play.is-animating img {
-    animation: none !important;
+  .home-welcome,
+  .home-desk-scene {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
-  .home-panel-play img {
-    clip-path: inset(0) !important;
+
+  .home-desk-link {
+    transition: none !important;
+  }
+
+  .home-desk-obj {
     transition: none !important;
   }
 }
@@ -826,11 +913,11 @@ details summary::-webkit-details-marker {
 
 /* Photo - matches .me class in original */
 .resume-photo {
-  width: 120px;  /* 20% bigger than the previous 100px */
-  height: 120px;
+  width: 120px;
+  height: auto;
   border-radius: 0;
   margin-bottom: 20px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Sidebar name - header > h1 in original */
@@ -1147,16 +1234,24 @@ details summary::-webkit-details-marker {
   bottom: 9%;
 }
 
+#events-shelf .events-shelf-photo {
+  flex: 0 1 80%;
+}
+
+#events-shelf .events-shelf-photo img {
+  max-height: 420px;
+}
+
 #podcast-shelf .shelf-surface {
   bottom: 9%;
 }
 
 #podcast-shelf .shelf-item:first-child {
-  flex: 0 1 48%;
+  flex: 0 1 65%;
 }
 
 #podcast-shelf .shelf-item:first-child img {
-  max-height: 312px;
+  max-height: 480px;
 }
 
 #podcast-shelf .shelf-item:last-child {

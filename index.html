@@ -3,13 +3,37 @@ layout: home
 title: Carrah Lingo
 ---
 
-<section id="home-split" class="home-split" aria-label="Primary navigation">
-  <a class="home-panel home-panel-work" href="{{ '/work.html' | relative_url }}" aria-label="Work (Resume)">
-    <img src="{{ '/static/img/home-chair.png' | relative_url }}" alt="Office chair" draggable="false">
-    <span class="home-label" aria-hidden="true">WORK</span>
-  </a>
-  <a class="home-panel home-panel-play" href="{{ '/play.html' | relative_url }}" aria-label="Play">
-    <img src="{{ '/static/img/home-popper.png' | relative_url }}" alt="Party popper" draggable="false">
-    <span class="home-label" aria-hidden="true">PLAY</span>
-  </a>
+<section class="home-room" aria-label="Welcome">
+
+  <!-- Welcome area -->
+  <div class="home-welcome">
+    <p class="home-greeting">Hi, I'm Carrah. Welcome to my desk.</p>
+  </div>
+
+  <!-- Desk scene -->
+  <div class="home-desk-scene">
+    <div class="home-desk-items">
+
+      <a class="home-desk-link home-desk-work" href="{{ '/work.html' | relative_url }}" aria-label="Work — projects and experience">
+        <span class="home-desk-label home-desk-label-work">WORK</span>
+        <div class="home-desk-objects">
+          <img class="home-desk-obj home-desk-plant" src="{{ '/static/img/homepage/desk-plant.png' | relative_url }}" alt="Desk plant" draggable="false">
+          <img class="home-desk-obj home-desk-laptop" src="{{ '/static/img/homepage/work-laptop.png' | relative_url }}" alt="Laptop" draggable="false">
+          <img class="home-desk-obj home-desk-mug" src="{{ '/static/img/homepage/britney-mug.png' | relative_url }}" alt="Coffee mug" draggable="false">
+        </div>
+      </a>
+
+      <a class="home-desk-link home-desk-play" href="{{ '/play.html' | relative_url }}" aria-label="Play — podcast, events and fun stuff">
+        <span class="home-desk-label home-desk-label-play">PLAY</span>
+        <div class="home-desk-objects">
+          <img class="home-desk-obj home-desk-mic" src="{{ '/static/img/play/item-mic-podcast.png' | relative_url }}" alt="Microphone" draggable="false">
+          <img class="home-desk-obj home-desk-poppy" src="{{ '/static/img/homepage/poppy-vase.png' | relative_url }}" alt="Poppy vase" draggable="false">
+          <img class="home-desk-obj home-desk-disco" src="{{ '/static/img/homepage/disco.png' | relative_url }}" alt="Disco ball" draggable="false">
+        </div>
+      </a>
+
+    </div>
+    <img class="home-desk-img" src="{{ '/static/img/homepage/desk.png' | relative_url }}" alt="" aria-hidden="true" draggable="false">
+  </div>
+
 </section>
