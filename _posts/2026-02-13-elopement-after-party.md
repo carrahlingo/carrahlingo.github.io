@@ -12,15 +12,13 @@ image: /static/img/blog/elopement-party/sunglasses-table.JPG
 .post-photo { max-width: 100%; display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
 .photo-pair { display: flex; gap: 8px; margin: 1.5rem auto; }
 .photo-pair img { width: 49%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+.photo-trio { display: flex; gap: 8px; margin: 1.5rem auto; }
+.photo-trio img { width: 32%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); object-fit: cover; }
 </style>
 
-In March 2023, we eloped with our immediate family on Catalina Island. But we still wanted to party with our favorite people! So we threw an after party on our D.C. rooftop two months later. We sent an e-vite (White Lotus / California cocktail Pinterest board included), crossed our fingers, and hoped people would travel to our new home in D.C. for our nontraditional celebration. Spoiler alert: They did... and they looked good doing it. Here's how we pulled it off.
+In March 2023, we eloped with our immediate family on Catalina Island. But we still wanted to party with our favorite people! So we threw an after party on our D.C. rooftop two months later. We used [Greenvelope](https://www.greenvelope.com/) to send e-vites (White Lotus / California cocktail Pinterest board included), crossed our fingers, and hoped people would travel to our new home in D.C. for our nontraditional celebration. Spoiler alert: They did... and they looked chic doing it. Here's how we pulled it off.
 
 ## Set the Vibe
-
-We had a groovy California vibe to our party that matched my personal taste as well as the interior design of our rooftop lounge.
-
-At our welcome table people could choose from a pair of retro sunglasses (I ordered the sunglasses and the tablecloth from Amazon).
 
 <img class="post-photo" src="/static/img/blog/elopement-party/sunglasses-table.JPG" alt="Sunglasses table with letterboard reading Welcome! Choose ur party shades">
 
@@ -29,54 +27,56 @@ At our welcome table people could choose from a pair of retro sunglasses (I orde
   <img src="/static/img/blog/elopement-party/beer-cooler.JPG" alt="Retro beer cooler on the rooftop">
 </div>
 
-I also had a goal of reducing waste, so I tried to order things that I could use later down the line. We still have some matchbooks in our bathroom today! We rented these cute coolers for all the beer, seltzers and non-alcoholic drinks. And the baskets were a gift from our West Elm wedding registry.
+We had a groovy California vibe to our party that matched my personal taste as well as the interior design of our rooftop lounge. At the entrance, guests were encouraged to choose from a pair of retro sunglasses (both these and the tablecloth were purchased on Amazon) to complement their look.
 
-<img class="post-photo" src="/static/img/blog/elopement-party/wine-bar.JPG" alt="Grand Cata wine bar with bottles being poured">
+I had a goal to reduce waste, so I tried to order things we'd actually use again. We still have some matchbooks (purchased on Etsy) in our bathroom today! We rented vintage coolers for all the beer, seltzers and non-alcoholic drinks, and the baskets were repurposed from our West Elm wedding registry.
 
-It was our first year living in D.C., and we thought it would be cool to share some of our favorite places with our friends. Grand Cata is a Latin American wine shop around the corner from our place, and we knew we wanted them pouring wine throughout the night.
-
-## Feed Your Guests (and Yourself)
-
-Shades on. Drinks poured. Let's go.
-
-<img class="post-photo" src="/static/img/blog/elopement-party/rooftop-crowd.jpg" alt="Packed rooftop lounge with guests mingling">
-
-The rooftop filled up fast. It ended up pouring rain so we were all stuck inside together. Luckily we had great company and a vibey space to hang out in.
+## Support Local
 
 <div class="photo-pair">
-  <img src="/static/img/blog/elopement-party/polaroids.JPG" alt="Friends looking at Polaroid photos">
+  <img src="/static/img/blog/elopement-party/wine-bar.JPG" alt="Grand Cata wine bar with bottles being poured">
   <img src="/static/img/blog/elopement-party/pizza-and-wine.JPG" alt="Friends with pizza and wine">
 </div>
 
-Polaroids, pizza, and wine — the millennial's holy trinity of a good time.
+Since it was our first year in D.C., we wanted to share some of our favorite local spots with our friends. Grand Cata, a Latin American wine shop around the corner from our place, poured wine throughout the night. Andy's Pizza kept everyone fed, and Dolci Gelati served gelato for dessert.
 
-<img class="post-photo" src="/static/img/blog/elopement-party/guys-in-shades.JPG" alt="Two guys in suits rocking party sunglasses">
+## Let the Party Happen
+
+<img class="post-photo" src="/static/img/blog/elopement-party/rooftop-crowd.jpg" alt="Packed rooftop lounge with guests mingling">
+
+<div class="photo-pair">
+  <img src="/static/img/blog/elopement-party/polaroids.JPG" alt="Friends looking at Polaroid photos">
+  <img src="/static/img/blog/elopement-party/guys-in-shades.JPG" alt="Two guys in suits rocking party sunglasses">
+</div>
+
+Our rooftop had a capacity of 100 people, which helped us keep our guest list intentional while including friends from all phases of life. It ended up raining all night, so we were limited to the inside space for most of the time. We tasked a few friends with taking Polaroid photos throughout the night so we could make a party book. It was a cute way to get people to mix and mingle.
 
 ## Debut Your Wedding Video
-
-At sunset we fired up the projector and screened our wedding video. This was the first time anyone got to see our video, and the sunset was a gorgeous backdrop for the viewing. Tears were shed, laughs were had, and it was so fun to share memories of our elopement with our friends and family.
 
 <div class="photo-pair">
   <img src="/static/img/blog/elopement-party/guests-watching.jpg" alt="Guests watching the screening with drinks in hand">
   <img src="/static/img/blog/elopement-party/white-lotus-screening.jpg" alt="Wedding video playing on projector screen at sunset">
 </div>
 
-## End with a Toast
+At sunset we fired up the projector and debuted our wedding video, filmed by [Quail & the Dove](https://thequailandthedove.com/), for the first time. Tears, laughter, and a gorgeous sunset backdrop. It was the highlight of the night.
+
+## Close with Toasts
 
 <div class="photo-pair">
   <img src="/static/img/blog/elopement-party/alan-speech.jpg" alt="Alan giving a speech in a white blazer">
   <img src="/static/img/blog/elopement-party/madeline-speech.jpg" alt="Madeline giving a speech in a gold dress">
 </div>
 
+Toasts were important to us, and we knew our friends would deliver the perfect balance of comedic timing with heartfelt words. Ryan's best friend Alan (who he met at a Radiohead concert) and Carrah's best friend since middle school Madeline opened the toasts, and they were incredibly original, sweet, and hilarious.
+
 <img class="post-photo" src="/static/img/blog/elopement-party/carrah-and-ryan.jpg" alt="Carrah and Ryan">
 
-Have your best friends say a few words. It doesn't have to be formal — just heartfelt. The energy in the room was unreal.
+<div class="photo-pair">
+  <img src="/static/img/blog/elopement-party/kt-speech.jpg" alt="Friend giving a speech while couple laughs">
+  <img src="/static/img/blog/elopement-party/crowd-cheering.JPG" alt="Crowd cheering and clapping">
+</div>
 
-<img class="post-photo" src="/static/img/blog/elopement-party/crowd-cheering.JPG" alt="Crowd cheering and clapping">
-
-One big toast to close it out. To love, to rooftops, and to doing things your own way.
-
-<img class="post-photo" src="/static/img/blog/elopement-party/kt-speech.jpg" alt="Friend giving a speech while couple laughs">
+Carrah's bestie (and Life & the Party podcast co-host) Katie closed out the toasts, and it was a banger. We laughed, we cried, and we laughed so hard that we cried. Toasts were the perfect way to end the night, and if you're considering skipping the traditional route, do it... and throw a party that feels like you.
 
 <img class="post-photo" src="/static/img/blog/elopement-party/big-toast.jpg" alt="Everyone raising their drinks for the big toast">
 
