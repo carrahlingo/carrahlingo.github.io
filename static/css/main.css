@@ -808,6 +808,10 @@ a.nostyle:visited {
 .label-info{
   background-color: var(--link-color);;
 }
+[data-theme="dark"] .label-info {
+  background-color: #333333;
+  color: #e0e0e0;
+}
 
 .testing{
   padding-top: 5px;
@@ -1317,6 +1321,22 @@ details summary::-webkit-details-marker {
   max-height: 420px;
 }
 
+#magazine-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#magazine-shelf .shelf-item {
+  flex: 0 1 40%;
+}
+
+#magazine-shelf .shelf-item img {
+  max-height: 240px;
+}
+
+#placeholder-shelf .shelf-surface {
+  bottom: 9%;
+}
+
 #podcast-shelf .shelf-surface {
   bottom: 9%;
 }
@@ -1457,7 +1477,11 @@ details summary::-webkit-details-marker {
 
   #experience-shelf .shelf-item img {
     height: auto;
-    max-height: 160px;
+    max-height: 200px;
+  }
+
+  #magazine-shelf .shelf-item img {
+    max-height: 200px;
   }
 }
 
@@ -1481,7 +1505,11 @@ details summary::-webkit-details-marker {
 
   #experience-shelf .shelf-item img {
     height: auto;
-    max-height: 120px;
+    max-height: 150px;
+  }
+
+  #magazine-shelf .shelf-item img {
+    max-height: 150px;
   }
 }
 

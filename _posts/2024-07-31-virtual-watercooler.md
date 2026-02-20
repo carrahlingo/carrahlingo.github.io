@@ -8,6 +8,7 @@ image: /static/img/blog/watercooler/Watercooler blog image.jpg
 
 <style>
 .panel, .panel-body { background-color: #faf8f5 !important; }
+[data-theme="dark"] .panel, [data-theme="dark"] .panel-body { background-color: #0f0f0f !important; }
 .post-photo { max-width: 100%; display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
 </style>
 
