@@ -9,7 +9,6 @@ excerpt: "History buffs and Lowcountry locals might find my latest PowerSource f
 
 <style>
 .panel, .panel-body { background-color: #faf8f5 !important; }
-[data-theme="dark"] .panel, [data-theme="dark"] .panel-body { background-color: #0f0f0f !important; }
 
 .slideshow {
   position: relative;
@@ -72,18 +71,6 @@ excerpt: "History buffs and Lowcountry locals might find my latest PowerSource f
   background: rgba(0, 0, 0, 0.45);
 }
 
-[data-theme="dark"] .slideshow-arrow {
-  background: rgba(255, 255, 255, 0.25);
-  color: #fff;
-}
-
-[data-theme="dark"] .slideshow-arrow:hover {
-  background: rgba(255, 255, 255, 0.4);
-}
-
-[data-theme="dark"] .slideshow-arrow:disabled:hover {
-  background: rgba(255, 255, 255, 0.25);
-}
 
 .slideshow-counter {
   text-align: center;

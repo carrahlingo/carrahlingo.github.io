@@ -2,7 +2,6 @@
 -------------------------------------------------- */
 @import "pygments.css";
 @import url(//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700|Courier+Prime:400,700);
-/* Light mode */
 :root {
   --content-max-width: 768px;
   --avatar-size: 460px; /* homepage avatar size */
@@ -17,20 +16,6 @@
   --link-color: #444444;
   --link-highlight: rgba(0, 0, 0, 0.10);
   --accent-secondary-color: #666666;
-}
-/* Dark mode */
-[data-theme="dark"] {
-  --primary-color: #f2f2f2;
-  --secondary-color: #b5b5b5;
-  --font-color: #f2f2f2;
-  --bg-color: #0f0f0f;
-  --heading-color: #f2f2f2;
-  --border-color: var(--bg-color);
-  --accent-color: #d0d0d0;
-  --link-color: #d0d0d0;
-  --icon-color: #f2f2f2;
-  --link-highlight: rgba(255, 255, 255, 0.14);
-  --accent-secondary-color: #b5b5b5;
 }
 
 html {
@@ -135,10 +120,6 @@ html,body {
   outline: 3px solid rgba(0, 0, 0, 0.55);
   outline-offset: 4px;
   border-radius: 4px;
-}
-
-[data-theme="dark"] .home-desk-link:focus-visible {
-  outline-color: #d4c4b0;
 }
 
 /* Hover — lift each item individually (matches shelf-item--object on Play page) */
@@ -385,12 +366,41 @@ a.nostyle:visited {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar-default .navbar-brand {
   color: var(--font-color);
 }
 .navbar-header {
   padding-left: 0;
+  display: none;
+}
+
+/* Desktop: override Bootstrap 3 floats for centered nav */
+.navbar-inner .navbar-collapse {
+  float: none;
+}
+
+.navbar-inner .navbar-nav {
+  float: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Home icon as first list item */
+.navbar-nav > .nav-home {
+  list-style: none;
+}
+
+.navbar-nav > .nav-home > .navbar-brand {
+  padding: 15px;
+  margin: 0;
+  float: none;
+  height: auto;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: var(--font-color);
@@ -407,7 +417,16 @@ a.nostyle:visited {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: var(--font-color);
-  background-color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--font-color);
+  margin-top: 2px;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: var(--font-color);
@@ -452,21 +471,6 @@ a.nostyle:visited {
   }
 }
 
-/* Theme toggle icon */
-.theme-toggle {
-  cursor: pointer;
-}
-.theme-toggle i {
-  font-size: 1.1em;
-}
-.theme-toggle:focus,
-.theme-toggle:active,
-.theme-toggle:hover,
-.theme-toggle:focus-visible {
-  outline: none;
-  box-shadow: none;
-}
-
 .navbar-mobile-controls {
   display: none;
 }
@@ -476,9 +480,18 @@ a.nostyle:visited {
     position: relative;
   }
 
+  .navbar-inner {
+    display: block;
+  }
+
   .navbar-header {
+    display: block;
     width: 100%;
     padding-right: 0;
+  }
+
+  .navbar-nav > .nav-home {
+    display: none;
   }
 
   .navbar-mobile-controls {
@@ -498,14 +511,6 @@ a.nostyle:visited {
   .navbar-mobile-controls .navbar-toggle:hover,
   .navbar-mobile-controls .navbar-toggle:focus {
     background: transparent;
-  }
-
-  .navbar-theme-toggle {
-    display: none;
-  }
-
-  .navbar-collapse .navbar-theme-toggle {
-    display: none !important;
   }
 
   .navbar.navbar-default .navbar-collapse {
@@ -548,11 +553,6 @@ a.nostyle:visited {
     font-size: 12px;
     line-height: 1.2;
   }
-}
-
-[data-theme="dark"] .navbar.navbar-default .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.06);
-  box-shadow: none;
 }
 
 /* Custom page CSS
@@ -751,6 +751,19 @@ a:hover {
 .blog-title{
   padding-top: 2px;
 }
+.post-tags {
+  margin-left: 8px;
+}
+.post-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 999px;
+  font-size: 0.65em;
+  font-weight: normal;
+  color: var(--accent-secondary-color);
+  vertical-align: middle;
+}
 .related-posts h4 {
   text-align: center;
 }
@@ -807,10 +820,6 @@ a.nostyle:visited {
 
 .label-info{
   background-color: var(--link-color);;
-}
-[data-theme="dark"] .label-info {
-  background-color: #333333;
-  color: #e0e0e0;
 }
 
 .testing{
@@ -909,9 +918,6 @@ details summary::-webkit-details-marker {
   padding-bottom: 40px;
 }
 
-[data-theme="dark"] .resume-page {
-  color: #d6d6d6;
-}
 
 /* Links - exact match to original layout.css */
 .resume-page a {
@@ -929,19 +935,6 @@ details summary::-webkit-details-marker {
   color: var(--font-color);
 }
 
-[data-theme="dark"] .resume-page a {
-  color: #d6d6d6;
-  background-color: #333333;
-}
-
-[data-theme="dark"] .resume-page a:visited {
-  color: #d6d6d6;
-}
-
-[data-theme="dark"] .resume-page a:hover,
-[data-theme="dark"] .resume-page a:focus {
-  color: var(--font-color);
-}
 
 /* p and address have no margin in original */
 .resume-page p,
@@ -994,9 +987,6 @@ details summary::-webkit-details-marker {
   margin-bottom: 20px;
 }
 
-[data-theme="dark"] .resume-name {
-  color: var(--font-color);
-}
 
 /* Sidebar contact info */
 .resume-sidebar p,
@@ -1025,9 +1015,6 @@ details summary::-webkit-details-marker {
   margin-bottom: 10px;
 }
 
-[data-theme="dark"] .resume-section-title {
-  color: var(--font-color);
-}
 
 /* Article - matches original */
 .resume-item {
@@ -1060,11 +1047,6 @@ details summary::-webkit-details-marker {
   margin-right: 4px;
 }
 
-/* In dark mode, spans use font2-color */
-[data-theme="dark"] .resume-company,
-[data-theme="dark"] .resume-meta {
-  color: rgb(168, 168, 168);
-}
 
 /* Links in spans inherit color but keep background highlight */
 .resume-page .resume-company a,
@@ -1077,10 +1059,6 @@ details summary::-webkit-details-marker {
   color: var(--font-color);
 }
 
-[data-theme="dark"] .resume-page .resume-company a:hover,
-[data-theme="dark"] .resume-page .resume-meta a:hover {
-  color: var(--font-color);
-}
 
 /* Address and time in meta */
 .resume-meta address {
@@ -1111,9 +1089,6 @@ details summary::-webkit-details-marker {
   margin-right: 6px;
 }
 
-[data-theme="dark"] .resume-tech {
-  color: rgb(180, 180, 180);
-}
 
 .resume-content section {
   margin-bottom: 35px;
@@ -1124,9 +1099,6 @@ details summary::-webkit-details-marker {
   color: black;
 }
 
-[data-theme="dark"] .resume-page .fa {
-  color: #e1e1ff;
-}
 
 /* Tablet (768px - 959px) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -1443,9 +1415,6 @@ details summary::-webkit-details-marker {
   border-radius: 2px;
 }
 
-[data-theme="dark"] .shelf-item:focus-visible {
-  outline-color: #d4c4b0;
-}
 
 .shelf-item--object:focus-visible {
   transform: translateY(-4px);
@@ -1455,11 +1424,6 @@ details summary::-webkit-details-marker {
   transform: rotate(0deg) translateY(-4px);
 }
 
-/* Dark mode */
-[data-theme="dark"] .shelf-item--framed {
-  background: #2a2520;
-  border-color: #4a4035;
-}
 
 /* Responsive — mobile (single column) */
 @media (max-width: 767px) {
