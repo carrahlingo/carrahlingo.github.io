@@ -1,7 +1,7 @@
 # Startup Guide
 
 ```bash
-# 1. Navigate to project
+# 1. Open Ghostty and navigate to project
 cd ~/code/carrahlingo.github.io
 
 # 2. Launch Claude Code
