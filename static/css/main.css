@@ -1217,6 +1217,16 @@ details summary::-webkit-details-marker {
 /* Shelf page — shared layout for Play & Work
 -------------------------------------------------- */
 
+.page-intro {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--font-color);
+  text-align: center;
+  margin: 2.5rem auto 1.5rem;
+  max-width: 600px;
+}
+
 .shelf-page {
   padding: 40px 20px 60px;
   background-color: var(--bg-color);
@@ -1333,8 +1343,16 @@ details summary::-webkit-details-marker {
   max-height: 240px;
 }
 
-#placeholder-shelf .shelf-surface {
+#magazine-shelf-2 .shelf-surface {
   bottom: 9%;
+}
+
+#magazine-shelf-2 .shelf-item {
+  flex: 0 1 40%;
+}
+
+#magazine-shelf-2 .shelf-item img {
+  max-height: 240px;
 }
 
 #podcast-shelf .shelf-surface {
@@ -1483,6 +1501,10 @@ details summary::-webkit-details-marker {
   #magazine-shelf .shelf-item img {
     max-height: 200px;
   }
+
+  #magazine-shelf-2 .shelf-item img {
+    max-height: 200px;
+  }
 }
 
 /* Responsive — extra small */
@@ -1509,6 +1531,10 @@ details summary::-webkit-details-marker {
   }
 
   #magazine-shelf .shelf-item img {
+    max-height: 150px;
+  }
+
+  #magazine-shelf-2 .shelf-item img {
     max-height: 150px;
   }
 }

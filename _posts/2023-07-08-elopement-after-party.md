@@ -4,6 +4,7 @@ title: "How to Throw an Elopement After Party"
 date: 2023-07-08
 tags: [Event Planning]
 image: /static/img/blog/elopement-party/sunglasses-table.JPG
+excerpt: "In March 2023, we eloped with our immediate family on Catalina Island. But we still wanted to party with our favorite people! So we threw an after party on our D.C. rooftop..."
 ---
 
 <style>

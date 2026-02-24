@@ -4,6 +4,7 @@ title: "5 Steps to Creating a Virtual Watercooler Employees Will Actually Use"
 date: 2024-07-31
 tags: [Employee Engagement, Internal Communication]
 image: /static/img/blog/watercooler/Watercooler blog image.jpg
+excerpt: "A lot of the work I do as a Consultant at The Cadmus Group centers around improving employee engagement in the federal government space..."
 ---
 
 <style>

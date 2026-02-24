@@ -4,6 +4,7 @@ title: "PowerSource Magazine: Eclectic Local History, Locally Available"
 date: 2022-12-05
 tags: [Publication]
 image: /static/img/blog/magazine/berkeley 1.png
+excerpt: "History buffs and Lowcountry locals might find my latest PowerSource feature interesting! I spent a day at the Berkeley County Museum &amp; Heritage Center to check out..."
 ---
 
 <style>
@@ -212,17 +213,17 @@ I spent a day at the Berkeley County Museum & Heritage Center to check out their
 
 <p><strong>4 p.m. The museum closes.</strong> I finish the end-of-day procedures and then head home.</p>
 
-<p>Then there are other things that happen less frequently, but are just as important like conducting presentations at schools or for groups, researching, writing, and establishing new exhibits and signage, and accepting artifacts and processing them into the collection.</p>
+<p>Then there are other things that happen less frequently, but are just as important like conducting presentations at schools or for groups; researching, writing, and editing for new exhibits and signage; and accepting artifacts and overseeing their addition into the collections.</p>
 
-<p>Running a museum isn't easy, of course. It requires volunteers and visitors to keep everything running smoothly.</p>
+<p>Running a museum isn't easy, or glamorous, or even regimented. It needs funding, volunteers and visitors to keep everything running smoothly.</p>
 
-<p>"More funding would allow us to make some much-needed updates to the museum's overall design so we can apply a sense of community to exhibits," said Proper. "It also allows us to hire staff, better equip our volunteers, and of course continue new projects."</p>
+<p>"More funding would allow us to make some much-needed updates to the museum's overall design so we can apply a sense of consistency to exhibits," said Proper. "It also allows us to hire staff, better equip our volunteers, and of course continue new projects."</p>
 
-<p>The next project in the works is a trail that starts at the museum, winds through the park, and ends at Fort Fair Lawn. Once it's complete in early 2023, it'll be an easy-to-walk, 1.5-mile path.</p>
+<p>The next project in the works is a trail that starts at the museum, winds through the park, and ends at Fort Fair Lawn. Once it's complete in early 2022, it'll be an easy-to-walk, 1.5-mile path.</p>
 
-<p>"We want both longtime locals and new residents to feel proud and represented in their community," said Proper. "On average, we'll see around 200 to 300 visitors a month, but our dream would be to double that and get to 1,000."</p>
+<p>"We want both longtime locals and new residents to feel proud and empowered in their community," said Proper. "On average, we'll see around 300 to 500 visitors a month, but our dream would be to double that and get to 1,000."</p>
 
-<p>Whether your family has been in Berkeley County for generations, or you just relocated to the area for a new job or to retire, there's a rich history for you to explore, and you can gain a lot of that knowledge at Berkeley County Museum and Heritage Center.</p>
+<p>Whether your family has been in Berkeley County for generations, or you just relocated to the area for a new job or to retire, there's a rich history for you to explore, and you can glean a lot of that knowledge at Berkeley County Museum and Heritage Center.</p>
 
 <p>If you are interested in volunteering at the museum, please contact Chelsy Proper at info@berkeleymuseum.org. You can learn more about the museum and how to support it at berkeleymuseum.org.</p>
 

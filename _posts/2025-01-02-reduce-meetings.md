@@ -4,6 +4,7 @@ title: "5 Steps to Reduce Meetings (and recover time for deep work)"
 date: 2025-01-02
 tags: [Leadership Development]
 image: /static/img/blog/meetings/deep-work-blog-pic.png
+excerpt: "In October of last year, I presented on behalf of The Cadmus Group to a group of IT leaders in the federal government. Like everyone else, these leaders face the challenge of too many meetings..."
 ---
 
 <style>

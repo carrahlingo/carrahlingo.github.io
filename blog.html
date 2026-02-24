@@ -91,7 +91,7 @@ title: Carrah Lingo's Blog
     <div class="blog-entry" data-tags="{{ post.tags | join: ',' }}">
       <p class="blog-entry-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
       <p class="blog-entry-meta">{{ post.date | date: "%B %e, %Y" }}{% if post.tags.size > 0 %} · {{ post.tags | join: ", " }}{% endif %}</p>
-      <p class="blog-entry-excerpt">{{ post.content | strip_html | truncatewords: 30 }}</p>
+      <p class="blog-entry-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
     </div>
   {% endfor %}
 </div>
