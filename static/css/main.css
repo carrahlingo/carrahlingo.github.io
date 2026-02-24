@@ -546,12 +546,14 @@ a.nostyle:visited {
 
   .navbar.navbar-default .navbar-collapse .navbar-nav {
     margin: 0;
+    display: block;
   }
 
   .navbar.navbar-default .navbar-collapse .navbar-nav > li > a {
-    padding: 6px 10px;
-    font-size: 12px;
-    line-height: 1.2;
+    display: block;
+    padding: 8px 16px;
+    font-size: 13px;
+    line-height: 1.4;
   }
 }
 
