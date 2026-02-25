@@ -1329,6 +1329,18 @@ details summary::-webkit-details-marker {
   max-height: 240px;
 }
 
+#t4t-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#t4t-shelf .shelf-item {
+  flex: 0 1 30%;
+}
+
+#t4t-shelf .shelf-item img {
+  max-height: 220px;
+}
+
 #podcast-shelf .shelf-surface {
   bottom: 9%;
 }
