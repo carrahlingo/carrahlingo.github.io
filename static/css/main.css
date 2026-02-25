@@ -1334,11 +1334,19 @@ details summary::-webkit-details-marker {
 }
 
 #t4t-shelf .shelf-item {
-  flex: 0 1 30%;
+  flex: 0 1 40%;
 }
 
 #t4t-shelf .shelf-item img {
-  max-height: 220px;
+  max-height: 240px;
+}
+
+.shelf-plant {
+  max-height: 270px;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+  pointer-events: none;
+  user-select: none;
+  transform: translateY(-5%);
 }
 
 #podcast-shelf .shelf-surface {
