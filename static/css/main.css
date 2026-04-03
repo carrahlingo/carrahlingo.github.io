@@ -864,6 +864,35 @@ a:hover {
 
   .gw-frame--span2 { grid-column: span 1; }
   .gw-frame--tall  { grid-row: span 1; }
+
+  /* Reset all desktop inline positioning */
+  .gallery-wall .gw-frame,
+  .gallery-wall .gw-stack {
+    grid-column: 1 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+    align-self: auto !important;
+  }
+
+  /* Stacked items — extra space after stack */
+  .gw-stack {
+    gap: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* Vintage polaroids — center on mobile */
+  .gw-frame--vintage {
+    max-width: 70% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Letterboard — full width on mobile */
+  .gw-frame--letterboard {
+    max-width: 100%;
+    margin: 0 !important;
+  }
 }
 
 /* Small screens */
@@ -876,7 +905,6 @@ a:hover {
   .gw-frame__content {
     padding: 18px 14px;
   }
-
 }
 
 .blog-post{
