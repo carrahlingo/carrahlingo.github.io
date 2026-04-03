@@ -991,14 +991,26 @@ details summary::-webkit-details-marker {
 
 
 /* Sidebar contact info */
+.resume-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.resume-contact li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.resume-contact address {
+  font-style: normal;
+  display: inline;
+}
+
 .resume-sidebar p,
 .resume-sidebar address {
   margin-bottom: 8px;
   font-style: normal;
-}
-
-.resume-sidebar p:last-child {
-  margin-bottom: 20px;
 }
 
 /* Photo link - uses navbar-link style (no highlight) */
@@ -1075,6 +1087,11 @@ details summary::-webkit-details-marker {
 .resume-meta address + time::before {
   content: '—';
   margin-right: 6px;
+}
+
+.bullet {
+  font-weight: 700;
+  font-size: 1.2em;
 }
 
 /* Paragraphs in resume items */
@@ -1166,8 +1183,27 @@ details summary::-webkit-details-marker {
   }
 }
 
+/* Download PDF button — styled to match sidebar links */
+.resume-download-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 -0.45em 0 var(--link-highlight);
+  transition: box-shadow 120ms ease, color 120ms ease;
+}
+
+.resume-download-btn:hover {
+  color: var(--font-color);
+  box-shadow: inset 0 -0.9em 0 var(--link-highlight);
+}
+
 @media print {
-  .navbar, footer {
+  .navbar, footer, .resume-download-btn {
     display: none !important;
   }
 
@@ -1289,7 +1325,6 @@ details summary::-webkit-details-marker {
 }
 
 #experience-shelf .shelf-item img {
-  height: 238px;
   max-height: 480px;
 }
 
@@ -1347,6 +1382,54 @@ details summary::-webkit-details-marker {
   pointer-events: none;
   user-select: none;
   transform: translateY(-5%);
+}
+
+#blog-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#blog-shelf .shelf-item {
+  flex: 0 1 65%;
+}
+
+#blog-shelf .shelf-item img {
+  max-height: 480px;
+}
+
+#lava-lamp-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+/* Lava lamp */
+.lava-lamp {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transform: translateY(-9%) scale(1.2);
+}
+
+#lava-lamp-shelf .lava-lamp:hover {
+  transform: translateY(calc(-9% - 6px)) scale(1.28);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+}
+
+.lava-lamp img {
+  filter: brightness(0.4) saturate(0.2);
+  transition: filter 400ms ease, drop-shadow 400ms ease;
+}
+
+.lava-lamp.is-on img {
+  filter: brightness(1) saturate(1.2);
+}
+
+.lava-lamp.is-on {
+  animation: lava-glow 3s ease-in-out infinite;
+}
+
+@keyframes lava-glow {
+  0%, 100% { filter: drop-shadow(0 0 8px rgba(255, 100, 50, 0.6)); }
+  50% { filter: drop-shadow(0 0 20px rgba(255, 60, 200, 0.7)); }
 }
 
 #podcast-shelf .shelf-surface {
@@ -1480,8 +1563,7 @@ details summary::-webkit-details-marker {
   }
 
   #experience-shelf .shelf-item img {
-    height: auto;
-    max-height: 200px;
+    max-height: 160px;
   }
 
   #magazine-shelf .shelf-item img {
@@ -1512,8 +1594,7 @@ details summary::-webkit-details-marker {
   }
 
   #experience-shelf .shelf-item img {
-    height: auto;
-    max-height: 150px;
+    max-height: 120px;
   }
 
   #magazine-shelf .shelf-item img {
@@ -1529,5 +1610,74 @@ details summary::-webkit-details-marker {
 @media (prefers-reduced-motion: reduce) {
   .shelf-item {
     transition: none;
+  }
+}
+
+/* Contact page
+-------------------------------------------------- */
+
+.contact-page {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 60px 20px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-photo {
+  width: 140px;
+  height: auto;
+  border-radius: 0;
+  margin-bottom: 24px;
+  object-fit: contain;
+}
+
+.contact-page .center a {
+  background-color: var(--bg-color);
+}
+
+.contact-intro {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--font-color);
+  margin-bottom: 28px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.contact-list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.contact-list address {
+  font-style: normal;
+  display: inline;
+}
+
+.contact-list .contact-icon,
+.contact-list .download-icon {
+  vertical-align: -1px;
+  margin-right: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-page {
+    padding: 40px 20px 60px;
+  }
+
+  .contact-photo {
+    width: 120px;
   }
 }

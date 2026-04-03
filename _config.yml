@@ -11,6 +11,7 @@ _markdown_parser: parsedown
 #paginate: 5
 port: 5000
 safe: true
+future: true
 
 
 
