@@ -2,31 +2,105 @@
 <div class="container">
 
   <div class="gallery-wall">
-    <div class="gallery-wall__row">
-      <div class="gallery-wall__frame gallery-wall__frame--landscape gallery-wall__frame--left">
-        <img src="{{ site.baseurl }}static/img/about/gallery-1.png" alt="Carrah on her wedding day with her husband and vizsla, Catalina Island in the background">
+
+    <!-- 1. Photo: Wedding — landscape, spans 2 cols -->
+    <div class="gw-frame gw-frame--photo gw-frame--span2">
+      <img src="{{ site.baseurl }}static/img/about/gallery-1.png" alt="Carrah on her wedding day with her husband and vizsla, Catalina Island in the background">
+    </div>
+
+    <!-- 2. ESTP + Britney stacked -->
+    <div class="gw-stack">
+      <div class="gw-frame gw-frame--photo gw-frame--lift">
+        <a href="https://www.16personalities.com/estp-personality" target="_blank" rel="noopener noreferrer">
+          <img src="{{ site.baseurl }}static/img/about/ESTP Shelf.png" alt="ESTP personality type">
+        </a>
+        <div class="gw-caption">I'm an ESTP: Entrepreneur</div>
       </div>
-      <div class="gallery-wall__frame gallery-wall__frame--portrait">
-        <img src="{{ site.baseurl }}static/img/about/gallery-2.png" alt="Carrah smiling at her elopement after party in a floral dress">
-      </div>
-      <div class="gallery-wall__frame gallery-wall__frame--landscape gallery-wall__frame--right">
-        <img src="{{ site.baseurl }}static/img/about/gallery-3.png" alt="Carrah with about 30 friends at a Washington Nationals game outside the stadium in Washington, D.C.">
+
+      <div class="gw-frame gw-frame--photo gw-frame--lift gw-frame--vintage">
+        <img src="{{ site.baseurl }}static/img/about/britney.jpg" alt="Britney Spears">
+        <div class="gw-vintage-label">i ♥ britney spears</div>
       </div>
     </div>
-  </div>
 
-  <div class="about-row">
-    <div class="about-copy">
-      <p>Hi, I'm Carrah Lingo. This website is my space for sharing more of my personal projects alongside some professional highlights.</p>
-
-      <p>I'm an outgoing, empathetic, and ambitious person who values quality time and new experiences with people I love. I find meaning in bringing people together and have been an expert host and vacation planner for more than a decade.</p>
-
-      <p>Professionally, I have 12 years of experience in strategic communications and marketing. I'm happiest alongside other hardworking and interesting people and I thrive when I can flex my event planning and community building skills.</p>
-
-      <p class="about-copy__break">In 2024, I started a podcast with my lifelong best friend where we talk about the challenges and importance of friendship along with all the life lessons you stumble through in your 20's and 30's. It's a mix of comedy, self-help and mindless best friend banter.</p>
-
-      <p>In my free time, I prefer to be laughing with friends, seeing live music, and meeting new people. I also dabble in creative outlets like watercolor and acrylic painting, pottery, and interior design. I share a sweet seven-year-old vizsla with my wonderful husband and hiking with her is our favorite family activity.</p>
+    <!-- 3. Business Card -->
+    <div class="gw-frame gw-frame--photo gw-frame--lift gw-frame--span2" style="margin-top: -60px;">
+      <a href="https://www.linkedin.com/in/carrahlingo/" target="_blank" rel="noopener noreferrer">
+        <img src="{{ site.baseurl }}static/img/about/biz card.png" alt="Carrah Lingo business card">
+      </a>
+      <div class="gw-caption">Learn more about my career on LinkedIn</div>
     </div>
+
+    <!-- 4. Spotify: Wedding Playlist -->
+    <div class="gw-frame gw-frame--photo gw-frame--lift" style="align-self: end; margin-top: 10px;">
+      <a href="https://open.spotify.com/playlist/2zt9ZqdlF6irROjAvtWQtA?si=T-HZ53GeTD-UeBfpn6HFeA&pi=ayvO54BWRySSC" target="_blank" rel="noopener noreferrer">
+        <img src="{{ site.baseurl }}static/img/about/wedding playlist image.png" alt="Wedding playlist on Spotify">
+      </a>
+      <div class="gw-caption">Dance to our wedding playlist</div>
+    </div>
+
+    <!-- 5. Photo: Elopement — portrait, spans 2 rows -->
+    <div class="gw-frame gw-frame--photo gw-frame--tall">
+      <img src="{{ site.baseurl }}static/img/about/gallery-2.png" alt="Carrah smiling at her elopement after party in a floral dress">
+    </div>
+
+    <!-- 6. CliftonStrengths Letter Board — 2 cols aligned right -->
+    <div class="gw-frame gw-frame--span2" style="grid-column: 2 / 4; box-shadow: none;">
+      <div class="gw-frame--text gw-frame--letterboard gw-frame--lift">
+        <a href="https://www.gallup.com/cliftonstrengths/en/253715/34-cliftonstrengths-themes.aspx" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+          <div class="gw-frame__content">
+            <h3>My CliftonStrengths Top 5:</h3>
+            <ol>
+              <li><strong>1. Individualization</strong></li>
+              <li><strong>2. Activator</strong></li>
+              <li><strong>3. Woo</strong></li>
+              <li><strong>4. Strategic</strong></li>
+              <li><strong>5. Communication</strong></li>
+            </ol>
+          </div>
+        </a>
+      </div>
+      <div class="gw-caption">Learn more about CliftonStrengths</div>
+    </div>
+
+    <!-- 7. Kaya polaroid + Nationals side by side -->
+    <div class="gw-frame gw-frame--photo gw-frame--lift gw-frame--vintage" style="grid-column: 1; align-self: center; max-width: 75%; margin-top: -30px; margin-left: auto; margin-right: 25px;">
+      <img src="{{ site.baseurl }}static/img/about/kaya beach.png" alt="Kaya the vizsla at the beach">
+      <div class="gw-vintage-label">kaya ♥</div>
+    </div>
+
+    <div class="gw-frame gw-frame--photo gw-frame--span2" style="grid-column: 2 / 4; align-self: center; margin-top: -15px;">
+      <img src="{{ site.baseurl }}static/img/about/gallery-3.png" alt="Carrah with about 30 friends at a Washington Nationals game outside the stadium in Washington, D.C.">
+    </div>
+
   </div>
+
 </div>
+
+<script>
+(function () {
+  var wall = document.querySelector('.gallery-wall');
+  if (!wall) return;
+
+  wall.addEventListener('click', function (e) {
+    // Don't toggle caption when clicking a link
+    if (e.target.closest('a')) return;
+
+    var frame = e.target.closest('.gw-frame');
+    if (!frame) {
+      wall.querySelectorAll('.gw-frame--active').forEach(function (f) {
+        f.classList.remove('gw-frame--active');
+      });
+      return;
+    }
+    var wasActive = frame.classList.contains('gw-frame--active');
+    wall.querySelectorAll('.gw-frame--active').forEach(function (f) {
+      f.classList.remove('gw-frame--active');
+    });
+    if (!wasActive) {
+      frame.classList.add('gw-frame--active');
+    }
+  });
+})();
+</script>
 </section>

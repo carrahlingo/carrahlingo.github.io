@@ -17,12 +17,20 @@
     <meta property="og:description" content="{{ page.description | default: site.description }}">
     <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+    {% else %}
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/static/img/{{ site.avatar }}">
-    <meta property="og:image:alt" content="{{ site.title }}">
+    {% endif %}
+    <meta property="og:image:alt" content="{{ page.title | default: site.title }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | default: site.title }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    {% if page.image %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
+    {% else %}
     <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/static/img/{{ site.avatar }}">
+    {% endif %}
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
