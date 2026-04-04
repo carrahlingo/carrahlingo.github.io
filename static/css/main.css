@@ -1575,6 +1575,12 @@ details summary::-webkit-details-marker {
   transform: translateY(-5%);
 }
 
+@media (max-width: 767px) {
+  .shelf-plant {
+    max-height: 140px;
+  }
+}
+
 #blog-shelf .shelf-surface {
   bottom: 9%;
 }
