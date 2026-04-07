@@ -1666,7 +1666,7 @@ details summary::-webkit-details-marker {
   overflow-y: auto;
   flex: 1;
   min-height: 0;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   line-height: 1.5;
   color: #333;
 }
@@ -1717,7 +1717,7 @@ details summary::-webkit-details-marker {
   }
 
   .shelf-rec-text {
-    font-size: 0.62rem;
+    font-size: 0.72rem;
     line-height: 1.4;
   }
 
@@ -1728,7 +1728,7 @@ details summary::-webkit-details-marker {
 
 @media (max-width: 400px) {
   .shelf-rec-text {
-    font-size: 0.57rem;
+    font-size: 0.67rem;
   }
 }
 
