@@ -4,6 +4,7 @@ title: "The National Tigers for Tigers Coalition Resource Guide"
 date: 2016-02-06
 tags: [Leadership Development, Publication]
 image: /static/img/blog/t4t/page-01.png
+emoji: "🐅"
 excerpt: "I had the opportunity to contribute to the writing, editing, and design of the National Tigers for Tigers Coalition Resource Guide — a handbook we shipped out to our student organizations across the country."
 ---
 

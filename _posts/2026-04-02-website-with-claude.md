@@ -4,6 +4,7 @@ title: "I Could've Used Squarespace. I Used Claude Code Instead."
 date: 2026-04-02
 tags: [AI, Website]
 image: /static/img/blog/claude/new claude code blog image.png
+emoji: "🤖"
 excerpt: "I wanted a personal website that actually felt personal. Instead of picking a template, I partnered with an AI assistant called Claude Code to design and build carrahlingo.com from scratch — no coding experience required."
 published: true
 ---

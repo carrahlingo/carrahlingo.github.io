@@ -4,6 +4,7 @@ title: "PowerSource Magazine: Eclectic Local History, Locally Available"
 date: 2022-12-05
 tags: [Publication]
 image: /static/img/blog/magazine/berkeley 1.png
+emoji: "📚"
 excerpt: "History buffs and Lowcountry locals might find my latest PowerSource feature interesting! I spent a day at the Berkeley County Museum &amp; Heritage Center to check out..."
 ---
 

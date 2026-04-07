@@ -4,6 +4,7 @@ title: "PowerSource Magazine: Making Their Mark"
 date: 2021-03-01
 tags: [Publication, Diversity & Inclusion]
 image: /static/img/blog/magazine/Making their mark_1.png
+emoji: "🏆"
 excerpt: "I have been waiting months to share this PowerSource feature I wrote highlighting Terry Stinson and Monique Washington at Santee Cooper..."
 ---
 

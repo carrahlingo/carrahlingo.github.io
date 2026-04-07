@@ -47,6 +47,21 @@ title: Carrah Lingo's Blog
 .blog-entry.hidden {
   display: none;
 }
+.blog-entry {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.blog-entry-emoji {
+  font-size: 2rem;
+  flex: 0 0 auto;
+  line-height: 1;
+  margin-top: 2px;
+}
+.blog-entry-body {
+  flex: 1;
+  min-width: 0;
+}
 .blog-entry-title {
   font-size: 1.15em;
   font-weight: 700;
@@ -86,9 +101,12 @@ title: Carrah Lingo's Blog
 
   {% for post in site.posts %}
     <div class="blog-entry" data-tags="{{ post.tags | join: ',' }}">
-      <p class="blog-entry-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
-      <p class="blog-entry-meta">{{ post.date | date: "%B %e, %Y" }}{% if post.tags.size > 0 %} · {{ post.tags | join: ", " }}{% endif %}</p>
-      <p class="blog-entry-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% if post.emoji %}<div class="blog-entry-emoji">{{ post.emoji }}</div>{% endif %}
+      <div class="blog-entry-body">
+        <p class="blog-entry-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p class="blog-entry-meta">{{ post.date | date: "%B %e, %Y" }}{% if post.tags.size > 0 %} · {{ post.tags | join: ", " }}{% endif %}</p>
+        <p class="blog-entry-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      </div>
     </div>
   {% endfor %}
 </div>
