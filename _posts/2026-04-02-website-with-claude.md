@@ -16,7 +16,7 @@ published: true
 
 <img class="post-photo" src="/static/img/blog/claude/new claude code blog image.png" alt="I Could've Used Squarespace. I Used Claude Code Instead.">
 
-Squarespace and Canva are great tools, especially for a Communications professional like myself. They both take care of the technical work that feels intimidating and offer more template options than you'd ever need. But, to be honest, I didn't build a personal website because I really wanted one. I built it because I thought it would be good practice before building an app I've been conceptualizing over the last few months. So instead of picking a template, I decided to build carrahlingo.com from scratch with Claude Code as my collaborator.
+Squarespace and Canva are great tools, especially for a communications professional like myself. They both take care of the technical work that feels intimidating and offer more template options than you'd ever need. Normally, I'd welcome that route for a more technical project. But having a personal website wasn't really the point. I built it because I thought it would be good practice before building an app I've been conceptualizing over the last few months. So instead of picking a template, I decided to build carrahlingo.com from scratch with Claude Code as my collaborator.
 
 A few other benefits of creating my personal website in no particular order:
 
@@ -41,9 +41,9 @@ I had the vision. I just had no idea how easily Claude would be able to execute 
 
 ## Step 2: Get Set Up
 
-Before I could start building anything, I needed to acquire the appropriate tools. This meant creating a GitHub account (where the site's code would live), downloading VS Code (the code editor), and installing Ghostty (my terminal of choice). I also set up a Claude account and got Claude Code running in my terminal. If you're coming from a world of Squarespace, Canva and Google Docs, this step is where it starts to feel real. You're actually entering the building-things-with-code world and it feels like you're hacking into the mainframe (lol).
+Before I could start building anything, I needed to acquire the appropriate tools. This meant creating a GitHub account (where the site's code would live), downloading VS Code (the code editor), and installing Ghostty (my terminal of choice). I also set up a Claude account and got Claude Code running in my terminal. If you're coming from a world of Squarespace, Canva and Google Docs, this step is where it starts to feel real. You're actually entering the "building things with code" world and it feels like you're hacking into the mainframe (lol).
 
-From there, Claude helped me get started with Jekyll — a tool that turns simple text files into a full website — and GitHub Pages, which hosts it for free at your own custom domain.
+From there, Claude helped me get started with Jekyll, a tool that turns simple text files into a full website, and GitHub Pages, which hosts it for free at your own custom domain.
 
 Within a couple of conversations, we had the bones of a site: a homepage, a navigation bar, and a place for blog posts. The first time I saw my site live at carrahlingo.com I felt giddy. There's something powerful about seeing your name in the URL bar and knowing *you* built what's behind it.
 
@@ -70,6 +70,6 @@ Of course, launching didn't mean I was done. I kept editing and fine-tuning for 
 
 If you need a professional site up and running quickly and you're not pressed about it being unique, Squarespace and friends will serve you well. No shame in that.
 
-But if you're someone who cares about the details, if you have a vision for what your space on the internet should look and feel like, this approach is incredibly rewarding. It takes more time than picking a template (it took me about two full weeks from start to finish.) It requires patience and iteration. But the end result is something that's thoughtfully yours, and the process teaches you things you'll carry forward. Like the fact that you don't need to be a developer to build something custom, that AI is most powerful when *you* bring the creative direction, and that understanding how your site works, even at a high level, is empowering.
+But if you're someone who cares about the details, if you have a vision for what your space on the internet should look and feel like, this approach is incredibly rewarding. It takes more time than picking a template (it took me about two full weeks from start to finish for the first iteration.) It requires patience and thoughtfulness. But the end result is something that's uniquely yours, and the process teaches you things you'll carry forward. Like the fact that you don't need to be a developer to build something custom, that AI is most powerful when *you* bring the creative direction, and that understanding how your site works, even at a high level, is empowering.
 
 I started this project not knowing what a Jekyll file was. I ended it with a live website, a growing blog, and the confidence to keep building. I'm excited to get started on my app next, so stay tuned for updates here as I dive into my biggest endeavor yet.
