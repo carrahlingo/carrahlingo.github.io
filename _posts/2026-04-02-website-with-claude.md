@@ -20,7 +20,7 @@ Squarespace and Canva are great tools, especially for a communications professio
 
 I approached Claude Code the way I'd approach a software developer or graphic designer at my company. I organized my thoughts, came in with a vision, and collaborated from there. That prep work made all the difference.
 
-A few other benefits of creating my personal website in no particular order:
+A few benefits of creating my personal website in no particular order:
 
 **Being productive while job searching.** I'm between jobs, and instead of letting that time slip by, I wanted to channel it into something productive.
 
