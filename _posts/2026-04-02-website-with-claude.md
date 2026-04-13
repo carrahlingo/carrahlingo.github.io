@@ -18,7 +18,7 @@ published: true
 
 Squarespace and Canva are great tools, especially for a communications professional like myself. They both take care of the technical work that feels intimidating and offer more template options than you'd ever need. Normally, I'd welcome that route for a more technical project. But having a personal website wasn't really the point. I built it because I thought it would be good practice before building an app I've been conceptualizing over the last few months. So instead of picking a template, I decided to build carrahlingo.com from scratch with Claude Code as my collaborator.
 
-I approached Claude Code the way I'd approach a software developer or graphic designer at my company. I organized my thoughts, came in with a vision, and collaborated from there. That prep work made all the difference.
+I approached Claude Code the way I'd approach a software developer or graphic designer at my company. I organized my thoughts, came in with a vision, and collaborated from there.
 
 A few benefits of creating my personal website in no particular order:
 
