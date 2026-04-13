@@ -34,7 +34,7 @@ Claude Code is an AI assistant made by Anthropic that lives right in your comput
 ## Step 1: Start with a Vision
 
 <figure>
-  <img class="post-photo" src="/static/img/blog/claude/sample website.jpg" alt="Canva mockup of the website vision">
+  <img class="post-photo" src="/static/img/blog/claude/sample-website.jpg" alt="Canva mockup of the website vision">
   <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: -0.5rem; margin-bottom: 1.5rem;">Early concept work in Canva.</figcaption>
 </figure>
 
