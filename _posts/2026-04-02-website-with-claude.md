@@ -26,7 +26,7 @@ A few benefits of creating my personal website in no particular order:
 
 **Feeling fulfilled with a creative project.** Unemployment can mess with your sense of purpose. I needed something to build, shape and be proud of.
 
-**Getting hands-on experience with Claude Code.** I'll admit I've been skeptical about AI, mostly around its environmental impact. But it's here, it's embedded in the corporate world, and I use it only where it makes sense.
+**Getting hands-on experience with Claude Code.** I'll admit I've been skeptical about AI, mostly around its environmental impact. But it's here, it's embedded in the corporate world, and I use it for high impact projects.
 
 
 ## What Is Claude Code?
