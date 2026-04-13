@@ -24,7 +24,7 @@ A few other benefits of creating my personal website in no particular order:
 
 **Feeling fulfilled with a creative project.** Unemployment can mess with your sense of purpose. I needed something to build, shape and be proud of.
 
-**Getting hands on experience with Claude Code.** I won't lie. I've been apprehensive to dive into AI too much due to its environmental impact. But it's here, it's being used in the corporate world, and I'm only using it when I deem the end product as highly impactful.
+**Getting hands-on experience with Claude Code.** I'll admit I've been skeptical about AI, mostly around its environmental impact. But it's here, it's embedded in the corporate world, and I use it only where it makes sense.
 
 
 ## What Is Claude Code?
@@ -32,6 +32,11 @@ A few other benefits of creating my personal website in no particular order:
 Claude Code is an AI assistant made by Anthropic that lives right in your computer's terminal (that black screen with the blinking cursor you've probably seen developers use.) Luckily for me, you don't need to be a developer to use it. You talk to it in plain English, describe what you want, and it writes the code for you. It can build pages, fix bugs, tweak designs, and iterate on ideas through conversation.
 
 ## Step 1: Start with a Vision
+
+<figure>
+  <img class="post-photo" src="/static/img/blog/claude/sample website.jpg" alt="Canva mockup of the website vision">
+  <figcaption style="text-align: center; font-size: 0.9em; color: #666; margin-top: -0.5rem; margin-bottom: 1.5rem;">Early concept work in Canva.</figcaption>
+</figure>
 
 The vision for my site came to me pretty quickly. I knew I wanted to incorporate an interior design element and display the dichotomy of work and play projects. I wanted my website to feel like you were stepping into a curated space rather than scrolling through a standard portfolio. I played around with concepts in Canva first, sketching out what the vibe might look like.
 
@@ -58,13 +63,13 @@ The homepage desk scene came together over several rounds of back and forth. The
 
 Once the structure was in place, adding content took some time. Blog posts, my resume, podcast links, magazine features. Each element needs to be well thought out and clean.
 
-Some of my favorite additions came later in the process. I added slideshows to feature some magazine features I'd written and to display the Tigers for Tigers Student Resource Guide I helped create. I reorganized the shelf layouts as my priorities shifted and added plants as placeholders and decor.
+Some of my favorite additions came later in the process. I added slideshows to feature some magazine features I'd written and to display the Tigers for Tigers Student Resource Guide I helped create. I reorganized the shelf layouts as my priorities shifted. I added a plant, a lava lamp you can turn on with a click, and other little details to make the space feel lived in.
 
 ## Step 5: Launch It
 
 Launching was exciting. Setting up my custom domain took one conversation with Claude and a quick update to my domain settings, and just like that, carrahlingo.com was live. I immediately started sharing the link with a bunch of friends. I was genuinely proud of what I'd built and wanted people to see it.
 
-Of course, launching didn't mean I was done. I kept editing and fine-tuning for the next couple of weeks. I was adjusting layouts, swapping out content, and tweaking little details that only I would notice. That's one of the best parts about building your own site: it's never really "finished," and that's a good thing.
+Of course, launching didn't mean I was done. I kept editing and fine-tuning for the next couple of weeks. I was adjusting layouts, swapping out content, and tweaking little details that only I would notice. That's one of the best parts about building your own site: it's never really "finished."
 
 ## Would I Recommend It?
 
