@@ -1555,6 +1555,18 @@ details summary::-webkit-details-marker {
   max-height: 240px;
 }
 
+#young-alumni-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#young-alumni-shelf .shelf-item {
+  flex: 0 1 80%;
+}
+
+#young-alumni-shelf .shelf-item img {
+  max-height: 420px;
+}
+
 #t4t-shelf .shelf-surface {
   bottom: 9%;
 }
