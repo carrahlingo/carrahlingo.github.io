@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I Pulled Off a New Orleans Bachelorette Party for a Lowkey Bride"
+title: "How I Pulled Off a New Orleans Bach for a Lowkey Bride"
 date: 2026-05-15
 tags: [Event Planning, Travel]
 emoji: "🌸"
