@@ -1819,6 +1819,10 @@ details summary::-webkit-details-marker {
     z-index: 9999;
     box-shadow: 0 4px 20px rgba(0,0,0,0.4);
   }
+
+  .spotify-popup iframe {
+    height: 80px;
+  }
 }
 
 .bluetooth-speaker {
