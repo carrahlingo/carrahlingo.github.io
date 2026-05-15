@@ -15,6 +15,11 @@ published: true
 .photo-pair img { width: 49%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
 </style>
 
+<div class="photo-pair">
+  <img src="/static/img/blog/bachelorette-nola/NOLA.jpeg" alt="New Orleans">
+  <img src="/static/img/blog/bachelorette-nola/bachelorette ladies.jpeg" alt="The bachelorette group">
+</div>
+
 By now you've probably seen the discourse around expensive, extravagant and over-the-top bachelorette parties. They've become a cultural flashpoint: luxury destination weekends, elaborate theme requirements, color-coordinated outfits, itineraries packed from 8 a.m. to 2 a.m. There are Reddit threads, viral TikToks, and think pieces about the financial and emotional toll of being invited to one. And a lot of the criticism is fair.
 
 But as someone who loves an excuse to celebrate and values new experiences, I don't think the answer is to abolish the bachelorette party. I think the answer is to plan a better one.
@@ -83,8 +88,3 @@ The bride wanted a spa night for the last evening, so I supplied face masks, hea
 The bride, who again didn't even want a party, ended up having a really good time. She got to celebrate herself, be with her sister and friends, and just exist in a beautiful city for a few days.
 
 Bachelorette parties don't have to be stressful or expensive or overwhelming. They just need a little intention. Know who you're celebrating, be upfront about cost early, and don't overpack the itinerary. The best moments of the weekend weren't the planned ones anyway.
-
-<div class="photo-pair">
-  <img src="/static/img/blog/bachelorette-nola/NOLA.jpeg" alt="New Orleans">
-  <img src="/static/img/blog/bachelorette-nola/bachelorette ladies.jpeg" alt="The bachelorette group">
-</div>
