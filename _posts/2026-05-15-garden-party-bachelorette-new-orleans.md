@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Garden Party Bachelorette in New Orleans (Without the Drama)"
+title: "How I Pulled Off a Low-Key Bachelorette in New Orleans"
 date: 2026-05-15
 tags: [Event Planning, Travel]
 emoji: "🌸"
