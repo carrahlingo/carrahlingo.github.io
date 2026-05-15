@@ -1531,6 +1531,18 @@ details summary::-webkit-details-marker {
   max-height: 420px;
 }
 
+#bachelorette-shelf .shelf-surface {
+  bottom: 11%;
+}
+
+#bachelorette-shelf .shelf-item {
+  flex: 0 1 80%;
+}
+
+#bachelorette-shelf .shelf-item img {
+  max-height: 420px;
+}
+
 #magazine-shelf .shelf-surface {
   bottom: 9%;
 }
