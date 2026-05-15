@@ -3,7 +3,7 @@ layout: post
 title: "How I Pulled Off a New Orleans Bach for a Lowkey Bride"
 date: 2026-05-15
 tags: [Event Planning, Travel]
-image: /static/img/play/NOLA Blog.png
+image: /static/img/blog/bachelorette-nola/NOLA.jpeg
 emoji: "⚜️"
 excerpt: "She wasn't even going to have a bachelorette party. Six girls, one long weekend, New Orleans in April — here's how to plan a trip that's fun, celebratory, and scaled to the people in the room."
 published: true
