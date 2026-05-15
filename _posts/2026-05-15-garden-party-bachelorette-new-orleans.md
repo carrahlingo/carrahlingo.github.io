@@ -45,6 +45,11 @@ I arrived a day early so I could set up without rushing, which made a huge diffe
 
 My favorite detail were the pearl balloons delivered from a local New Orleans business called Party Stop, with pink and orange ribbons I cut and attached myself. It was an easy way to elevate the vibe.
 
+<div class="photo-pair">
+  <img src="/static/img/blog/bachelorette-nola/Balloons.jpeg" alt="Pearl balloons with pink and orange ribbons">
+  <img src="/static/img/blog/bachelorette-nola/bride.jpeg" alt="The bride">
+</div>
+
 Never underestimate the power of printed photos! Leading up to the trip, I asked all the women to send me photos of them with the bride over the years. I laid these around the spritz bar as decor and she got to keep them all at the end of the trip.
 
 I Ubered to Whole Foods to snag pink, orange and white flower arrangements right as the bride landed in New Orleans. I designed a spritz bar sign on Canva and brought a frame (minus the glass) I picked up from TJ Maxx. I also grabbed some cute floral napkins while I was there because why not?
@@ -53,13 +58,23 @@ I also recycled a lot of party decor I've collected over the years, which kept c
 
 Nothing over the top, nothing that required a big budget or a party rental company. Just a few well-chosen things that made the space feel like the weekend was actually for her.
 
-The bride wanted a spa night for the last evening, so I supplied face masks, headbands and lip masks. They were the perfect pop of color!
+The bride wanted a spa night for the last evening, so I supplied face masks, headbands, lip masks and sleep masks. They were the perfect pop of color!
+
+<div class="photo-pair">
+  <img src="/static/img/blog/bachelorette-nola/spa night setup.jpeg" alt="Spa night setup">
+  <img src="/static/img/blog/bachelorette-nola/spa night.jpeg" alt="Spa night supplies laid out">
+</div>
 
 ## The Weekend
 
 **Thursday night** we settled into the Airbnb and kept it low key with a game night. One of the girls made a silly Mad Libs sheet for us to fill out, and worked with the groom ahead of time to put together a newlywed game with his video responses using Canva. It ended up being the bride's favorite part of the whole weekend. The kind of thing that costs nothing and means everything.
 
 **Friday** was the heart of it. We made brunch and Aperol spritzes at home, then headed to the New Orleans Botanical Garden, did an oyster happy hour at Superior Seafood, and went to dinner at Jack Rose. After dinner, a few of the girls went out to The Spotted Cat for live music.
+
+<div class="photo-pair">
+  <img src="/static/img/blog/bachelorette-nola/spritz bar.jpeg" alt="Aperol spritz bar setup at the Airbnb">
+  <img src="/static/img/blog/bachelorette-nola/garden.jpeg" alt="New Orleans Botanical Garden">
+</div>
 
 **Saturday** we did afternoon tea at the Ritz and went to French Quarter Fest (we decided to go the day before.) Then, everyone kind of did their own thing for a few hours, which sounds chaotic but actually worked perfectly for a small group of adults who know how to be in a city. We finished the weekend with a spa night at home, while a few ladies learned how to play Mahjong.
 
@@ -68,3 +83,8 @@ The bride wanted a spa night for the last evening, so I supplied face masks, hea
 The bride, who again didn't even want a party, ended up having a really good time. She got to celebrate herself, be with her sister and friends, and just exist in a beautiful city for a few days.
 
 Bachelorette parties don't have to be stressful or expensive or overwhelming. They just need a little intention. Know who you're celebrating, be upfront about cost early, and don't overpack the itinerary. The best moments of the weekend weren't the planned ones anyway.
+
+<div class="photo-pair">
+  <img src="/static/img/blog/bachelorette-nola/NOLA.jpeg" alt="New Orleans">
+  <img src="/static/img/blog/bachelorette-nola/bachelorette ladies.jpeg" alt="The bachelorette group">
+</div>
