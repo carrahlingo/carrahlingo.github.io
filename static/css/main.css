@@ -66,6 +66,14 @@ html,body {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--font-color);
+  margin: 0 0 6px;
+}
+
+.home-tagline {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--accent-secondary-color);
   margin: 0;
 }
 
@@ -1726,9 +1734,6 @@ details summary::-webkit-details-marker {
   scrollbar-color: #ccc transparent;
 }
 
-#recommendation-shelf .shelf-surface {
-  bottom: 9%;
-}
 
 @media (max-width: 767px) {
   .shelf-recommendation {

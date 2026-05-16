@@ -2,7 +2,7 @@
 layout: post
 title: "5 Steps to Creating a Virtual Watercooler Employees Will Actually Use"
 date: 2024-07-31
-tags: [Employee Engagement, Internal Communication]
+tags: [Employee Engagement, Internal Communication, Community Building]
 image: /static/img/blog/watercooler/Watercooler blog image.jpg
 emoji: "💧"
 excerpt: "A lot of the work I do as a Consultant at The Cadmus Group centers around improving employee engagement in the federal government space..."
@@ -19,7 +19,7 @@ A lot of the work I do as a Consultant at [The Cadmus Group](https://cadmusgroup
 
 A question that we advised on before the pandemic and continue to tackle after is: how can large, geographically diverse organizations get employees excited about engaging with each other in a hybrid working environment? (Especially when your clients don't have the budgets for fancy team lunches or in-person outings like a lot of companies in the private sector do!)
 
-You start by employing the tools that are already available to you, and then you get strategic about communicating. Our team at Cadmus Group pitched a "Virtual Watercooler" utilizing Microsoft Teams to our Internal Revenue Service (IRS) Information Technology (IT) client. Within the first three months of the launch, we tripled engagement within the "Virtual Watercooler" Teams channel. Here's how you can do it, too.
+You start by employing the tools that are already available to you, and then you get strategic about communicating. Our team at [Cadmus Group](https://cadmusgroup.com/) pitched a "Virtual Watercooler" utilizing Microsoft Teams to our Internal Revenue Service (IRS) Information Technology (IT) client. Within the first three months of the launch, we tripled engagement within the "Virtual Watercooler" Teams channel. Here's how you can do it, too.
 
 <img class="post-photo" src="/static/img/blog/watercooler/watercooler blog pullout quote.jpg" alt="Virtual Watercooler pullout quote">
 
