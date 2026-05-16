@@ -49,7 +49,7 @@ The ladies arrived in New Orleans on a Thursday and left Sunday — long enough 
 
 I arrived a day early so I could set up without rushing, which made a huge difference. Months before the trip I sent around a Google Form asking everyone their favorite snacks and drinks, so when I had groceries delivered from Whole Foods, nothing was a guess.
 
-My favorite detail were the pearl balloons delivered from a local New Orleans business called Party Stop, with pink and orange ribbons I cut and attached myself. It was an easy way to elevate the vibe.
+My favorite detail were the pearl balloons delivered from a local New Orleans business called [Party Stop](https://www.partystopnola.com/), with pink and orange ribbons I cut and attached myself. It was an easy way to elevate the vibe.
 
 <div class="photo-pair">
   <img src="/static/img/blog/bachelorette-nola/Balloons.jpeg" alt="Pearl balloons with pink and orange ribbons">
@@ -75,14 +75,14 @@ The bride wanted a spa night for the last evening, so I supplied face masks, hea
 
 **Thursday night** we settled into the Airbnb and kept it low key with a game night. One of the girls made a silly Mad Libs sheet for us to fill out, and worked with the groom ahead of time to put together a newlywed game with his video responses using Canva. It ended up being the bride's favorite part of the whole weekend. The kind of thing that costs nothing and means everything.
 
-**Friday** was the heart of it. We made brunch and Aperol spritzes at home, then headed to the New Orleans Botanical Garden, did an oyster happy hour at Superior Seafood, and went to dinner at Jack Rose. After dinner, a few of the girls went out to The Spotted Cat for live music.
+**Friday** was the heart of it. We made brunch and Aperol spritzes at home, then headed to the [New Orleans Botanical Garden](https://www.neworleanscitypark.com/botanical-garden), did an oyster happy hour at [Superior Seafood](https://superiorseafoodnola.com/), and went to dinner at [Jack Rose](https://www.jackroserestaurant.com/). After dinner, a few of the girls went out to [The Spotted Cat](https://www.spottedcatmusicclub.com/) for live music.
 
 <div class="photo-pair">
   <img src="/static/img/blog/bachelorette-nola/spritz bar.jpeg" alt="Aperol spritz bar setup at the Airbnb">
   <img src="/static/img/blog/bachelorette-nola/garden.jpeg" alt="New Orleans Botanical Garden">
 </div>
 
-**Saturday** we did afternoon tea at the Ritz and went to French Quarter Fest (we decided to go the day before.) Then, everyone kind of did their own thing for a few hours, which sounds chaotic but actually worked perfectly for a small group of adults who know how to be in a city. We finished the weekend with a spa night at home, while a few ladies learned how to play Mahjong.
+**Saturday** we did afternoon tea at the [Ritz](https://ritzcarltonneworleans.realtimereservation.com/) and went to [French Quarter Fest](https://frenchquarterfest.org/) (we decided to go the day before.) Then, everyone kind of did their own thing for a few hours, which sounds chaotic but actually worked perfectly for a small group of adults who know how to be in a city. We finished the weekend with a spa night at home, while a few ladies learned how to play Mahjong.
 
 ## The Takeaway
 
