@@ -9,10 +9,6 @@ excerpt: "I wanted a personal website that actually felt personal. Instead of pi
 published: true
 ---
 
-<style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-.post-photo { max-width: 100%; display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-</style>
 
 <img class="post-photo" src="/static/img/blog/claude/new claude code blog image.png" alt="I Could've Used Squarespace. I Used Claude Code Instead.">
 

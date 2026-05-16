@@ -9,12 +9,6 @@ excerpt: "She wasn't even going to have a bachelorette party. Six girls, one lon
 published: true
 ---
 
-<style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-.post-photo { max-width: 100%; display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-.photo-pair { display: flex; gap: 8px; margin: 1.5rem auto; }
-.photo-pair img { width: 49%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-</style>
 
 <div class="photo-pair">
   <img src="/static/img/blog/bachelorette-nola/NOLA.jpeg" alt="New Orleans">

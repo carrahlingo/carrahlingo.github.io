@@ -8,10 +8,6 @@ emoji: "📅"
 excerpt: "In October of last year, I presented on behalf of The Cadmus Group to a group of IT leaders in the federal government. Like everyone else, these leaders face the challenge of too many meetings..."
 ---
 
-<style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-.post-photo { max-width: 100%; display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-</style>
 
 <img class="post-photo" src="/static/img/blog/meetings/deep-work-blog-pic.png" alt="5 Steps to Reduce Meetings and recover time for deep work">
 

@@ -9,8 +9,6 @@ excerpt: "I have been waiting months to share this PowerSource feature I wrote h
 ---
 
 <style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-
 .slideshow {
   position: relative;
   max-width: 100%;

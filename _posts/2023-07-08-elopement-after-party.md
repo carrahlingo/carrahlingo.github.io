@@ -8,15 +8,6 @@ emoji: "🪩"
 excerpt: "In March 2023, we eloped with our immediate family on Catalina Island. But we still wanted to party with our favorite people! So we threw an after party on our D.C. rooftop..."
 ---
 
-<style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-.hero-photo { width: 100%; max-height: 400px; object-fit: cover; display: block; margin: 0 auto 1.5rem; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.18); }
-.post-photo { max-width: 100%; display: block; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-.photo-pair { display: flex; gap: 8px; margin: 1.5rem auto; }
-.photo-pair img { width: 49%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-.photo-trio { display: flex; gap: 8px; margin: 1.5rem auto; }
-.photo-trio img { width: 32%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); object-fit: cover; }
-</style>
 
 In March 2023, we eloped with our immediate family on Catalina Island. But we still wanted to party with our favorite people! So we threw an after party on our D.C. rooftop two months later. We used [Greenvelope](https://www.greenvelope.com/) to send e-vites (White Lotus / California cocktail Pinterest board included), crossed our fingers, and hoped people would travel to our new home in D.C. for our nontraditional celebration. Spoiler alert: They did... and they looked chic doing it. Here's how we pulled it off.
 

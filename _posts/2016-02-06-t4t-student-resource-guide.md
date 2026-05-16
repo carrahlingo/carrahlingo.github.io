@@ -9,8 +9,6 @@ excerpt: "I had the opportunity to contribute to the writing, editing, and desig
 ---
 
 <style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-
 .slideshow {
   position: relative;
   max-width: 100%;

@@ -9,8 +9,6 @@ excerpt: "History buffs and Lowcountry locals might find my latest PowerSource f
 ---
 
 <style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-
 .slideshow {
   position: relative;
   max-width: 100%;

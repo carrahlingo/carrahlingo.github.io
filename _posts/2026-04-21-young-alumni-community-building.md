@@ -8,12 +8,6 @@ emoji: "🤝"
 excerpt: "After three years leading Tigers for Tigers at Clemson and a fourth spent building the national coalition, I'd grown a skill set I was eager to keep using."
 ---
 
-<style>
-.panel, .panel-body { background-color: #faf8f5 !important; }
-.post-photo { max-width: 100%; display: block; margin: 1.5rem auto 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
-figure { margin: 1.5rem 0; }
-figcaption { text-align: center; font-size: 0.875rem; color: #6b5e52; margin-top: 0; }
-</style>
 
 <figure>
   <img class="post-photo" src="/static/img/blog/young-alumni-1/2018 networking event_charleston county clemson club.jpg" alt="2018 networking event, Charleston County Clemson Club">
