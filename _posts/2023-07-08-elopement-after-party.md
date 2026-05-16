@@ -6,6 +6,7 @@ tags: [Event Planning]
 image: /static/img/blog/elopement-party/sunglasses-table.JPG
 emoji: "🪩"
 excerpt: "In March 2023, we eloped with our immediate family on Catalina Island. But we still wanted to party with our favorite people! So we threw an after party on our D.C. rooftop..."
+description: "We eloped on Catalina Island, then threw a D.C. rooftop after party for our people. Here's how we pulled off a chic, intentional celebration."
 ---
 
 
@@ -31,7 +32,7 @@ I had a goal to reduce waste, so I tried to order things we'd actually use again
   <img src="/static/img/blog/elopement-party/pizza-and-wine.JPG" alt="Friends with pizza and wine">
 </div>
 
-Since it was our first year in D.C., we wanted to share some of our favorite local spots with our friends. Grand Cata, a Latin American wine shop around the corner from our place, poured wine throughout the night. Andy's Pizza kept everyone fed, and Dolci Gelati served gelato for dessert.
+Since it was our first year in D.C., we wanted to share some of our favorite local spots with our friends. [Grand Cata](https://www.grandcata.com/), a Latin American wine shop around the corner from our place, poured wine throughout the night. [Andy's Pizza](https://www.eatandyspizza.com/) kept everyone fed, and [Dolci Gelati](https://dolcigelati.net/) served gelato for dessert.
 
 ## Let the Party Happen
 

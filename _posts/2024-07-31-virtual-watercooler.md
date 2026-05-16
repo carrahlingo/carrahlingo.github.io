@@ -6,6 +6,7 @@ tags: [Employee Engagement, Internal Communication, Community Building]
 image: /static/img/blog/watercooler/Watercooler blog image.jpg
 emoji: "💧"
 excerpt: "A lot of the work I do as a Consultant at The Cadmus Group centers around improving employee engagement in the federal government space..."
+description: "5 steps to build a virtual watercooler your remote team will actually use — the strategy that tripled engagement in a large federal IT organization."
 ---
 
 

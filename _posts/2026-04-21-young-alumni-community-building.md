@@ -6,6 +6,7 @@ tags: [Community Building, Event Planning, Leadership Development]
 image: /static/img/blog/young-alumni-1/2018 networking event_charleston county clemson club.jpg
 emoji: "🤝"
 excerpt: "After three years leading Tigers for Tigers at Clemson and a fourth spent building the national coalition, I'd grown a skill set I was eager to keep using."
+description: "Four years leading the Clemson Young Alumni of Charleston — lessons in community building, event planning, and showing up consistently for your people."
 ---
 
 

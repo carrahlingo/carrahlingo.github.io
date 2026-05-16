@@ -1392,7 +1392,7 @@ details summary::-webkit-details-marker {
   text-transform: uppercase;
   font-weight: 400;
   color: var(--font-color);
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 
@@ -1422,9 +1422,11 @@ details summary::-webkit-details-marker {
   font-size: 100%;
 }
 
-.resume-meta::before {
-  content: '@';
+.resume-company::after {
+  content: ' ·';
   margin-right: 4px;
+  font-weight: 400;
+  color: var(--secondary-color);
 }
 
 
@@ -1455,15 +1457,15 @@ details summary::-webkit-details-marker {
   margin-right: 6px;
 }
 
-.bullet {
-  font-weight: 700;
-  font-size: 1.2em;
+/* Bullet lists in resume items */
+.resume-item ul {
+  margin: 4px 0 0;
+  padding-left: 1.2em;
 }
 
-/* Paragraphs in resume items */
-.resume-item p {
-  margin-bottom: 0;
+.resume-item li {
   line-height: 21px;
+  margin-bottom: 1px;
 }
 
 /* Tech stack - matches em styling in original */

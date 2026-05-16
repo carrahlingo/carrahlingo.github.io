@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="{{ site.author }}" />
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 25 | default: site.description }}">
     <link rel="icon" href="{{ site.baseurl }}/static/img/favicon.svg" type="image/svg+xml">
     <!-- link href="css/pygments.css" rel="stylesheet" -->
 
-    <title>{{ page.title }}</title>
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     {% assign canonical_url = site.url | append: page.url | replace: 'index.html', '' %}
     <link rel="canonical" href="{{ canonical_url }}">
     <meta property="og:title" content="{{ page.title | default: site.title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 25 | default: site.description }}">
     <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     {% if page.image %}
@@ -25,7 +25,7 @@
     <meta property="og:image:alt" content="{{ page.title | default: site.title }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | default: site.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 25 | default: site.description }}">
     {% if page.image %}
     <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image }}">
     {% else %}

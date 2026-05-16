@@ -6,6 +6,7 @@ tags: [Leadership Development]
 image: /static/img/blog/meetings/deep-work-blog-pic.png
 emoji: "📅"
 excerpt: "In October of last year, I presented on behalf of The Cadmus Group to a group of IT leaders in the federal government. Like everyone else, these leaders face the challenge of too many meetings..."
+description: "5 steps to reduce meetings and reclaim time for deep work — strategies I shared with federal IT leaders that you can start applying today."
 ---
 
 

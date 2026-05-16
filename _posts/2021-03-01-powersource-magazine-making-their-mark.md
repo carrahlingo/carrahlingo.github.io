@@ -6,6 +6,7 @@ tags: [Publication, Diversity & Inclusion]
 image: /static/img/blog/magazine/Making their mark_1.png
 emoji: "🏆"
 excerpt: "I have been waiting months to share this PowerSource feature I wrote highlighting Terry Stinson and Monique Washington at Santee Cooper..."
+description: "A PowerSource Magazine feature spotlighting Terry Stinson and Monique Washington — two leaders making their mark in diversity and inclusion at Santee Cooper."
 ---
 
 <style>

@@ -20,9 +20,12 @@ url: "https://carrahlingo.com"
 baseurl: ""
 title: Carrah Lingo
 author: Carrah Lingo
-description: Personal site
+description: "Carrah Lingo — communications strategist and community builder based in Brooklyn, NY. Writing on employee engagement, event planning, and more."
 avatar: carrah frame.png
 email: "carrahlingo@gmail.com"
 github: "carrahlingo"
 twitter: ""
 google_analytics: ""
+
+plugins:
+  - jekyll-sitemap

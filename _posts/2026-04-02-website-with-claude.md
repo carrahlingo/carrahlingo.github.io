@@ -6,6 +6,7 @@ tags: [AI, Website]
 image: /static/img/blog/claude/new claude code blog image.png
 emoji: "🤖"
 excerpt: "I wanted a personal website that actually felt personal. Instead of picking a template, I partnered with an AI assistant called Claude Code to design and build carrahlingo.com from scratch — no coding experience required."
+description: "I built my personal website from scratch using Claude Code — no prior coding experience required. Here's what the process was really like."
 published: true
 ---
 

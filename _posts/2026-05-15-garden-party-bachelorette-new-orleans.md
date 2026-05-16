@@ -6,6 +6,7 @@ tags: [Event Planning, Travel]
 image: /static/img/blog/bachelorette-nola/NOLA.jpeg
 emoji: "⚜️"
 excerpt: "She wasn't even going to have a bachelorette party. Six girls, one long weekend, New Orleans in April — here's how to plan a trip that's fun, celebratory, and scaled to the people in the room."
+description: "How I planned a New Orleans bachelorette for a lowkey bride — six girls, one long weekend, and a trip perfectly scaled to the people in the room."
 published: true
 ---
 
