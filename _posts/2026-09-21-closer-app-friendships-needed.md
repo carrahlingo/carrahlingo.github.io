@@ -11,7 +11,7 @@ published: true
 ---
 
 
-<img class="post-photo" src="/static/img/blog/closer-app/welcome-screen.png" alt="Closer app welcome screen, with the tagline 'for friends who care.'">
+<img class="phone-screenshot" src="/static/img/blog/closer-app/welcome-screen.png" alt="Closer app welcome screen, with the tagline 'for friends who care.'">
 
 What's their baby's birthday?
 

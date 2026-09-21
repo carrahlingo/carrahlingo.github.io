@@ -1059,6 +1059,15 @@ a:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
+.phone-screenshot {
+  max-width: 280px;
+  width: 100%;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
 .hero-photo {
   width: 100%;
   max-height: 400px;
