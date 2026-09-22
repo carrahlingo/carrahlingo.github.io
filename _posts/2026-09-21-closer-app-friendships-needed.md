@@ -14,7 +14,7 @@ published: true
 
 You're at a friend's wedding, about to run into people you haven't seen in two years. Panic sets in: where do they live now, and how old are their kids again? You check Facebook, untouched since 2020. You open Instagram instead, then remember: they don't post their kids' faces online. No photo to guess an age from.
 
-Different versions of this keep happening, and the wedding scramble is the easy one. It's also the friend who lost a parent, and you want to check in without making them repeat what they said last time. It's the friend quietly trying to get pregnant, and you want to ask without asking the wrong way. It's the new city, new neighbors, the community you're building from scratch as an adult. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
+Different versions of this keep happening, and the wedding scramble is the easy one. It's also the friend who lost a parent, and you want to keep track of your check-ins. It's the friend who's finishing up medical school, and you want to chat about life without making them repeat what they said last time. It's the new city, new neighbors, the community you're building from scratch as an adult. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
 
 None of it lives in one place. It's split across text threads, Notes app reminders, Instagram DMs, WhatsApp groups, and more. None of them separate what matters from the noise.
 
