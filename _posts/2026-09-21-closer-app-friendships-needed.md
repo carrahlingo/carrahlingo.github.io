@@ -5,25 +5,25 @@ date: 2026-09-21
 tags: [AI, Community Building, App Development]
 image: /static/img/blog/closer-app/welcome-screen.png
 emoji: "📱"
-excerpt: "What's their baby's birthday? When did their dad die? I manage communities for a living, but my own friendships never had the scaffolding I build for everyone else. So I built it myself, with an AI assistant called Claude Code."
+excerpt: "You're at a friend's wedding, about to run into people you haven't seen in ten years, and the panic sets in: what are their kids' names again? I manage communities for a living, but my own friendships never had the scaffolding I build for everyone else. So I built it myself, with an AI assistant called Claude Code."
 description: "Why I spent three months building Closer, a friendship app I designed and built myself with Claude Code, and what seven interviews taught me about what people actually want from their closest friendships."
-published: true
+published: false
 ---
 
 
-<img class="phone-screenshot" src="/static/img/blog/closer-app/welcome-screen.png" alt="Closer app welcome screen, with the tagline 'for friends who care.'">
+<div class="photo-trio">
+  <img src="/static/img/blog/closer-app/welcome-screen.png" alt="Closer app welcome screen, with the tagline 'for friends who care.'">
+  <img src="/static/img/blog/closer-app/gwen-top-half.png" alt="A friend's profile in Closer, showing an update, nudge cadence, and family and relationships">
+  <img src="/static/img/blog/closer-app/gwen-occasions.png" alt="A friend's profile in Closer, showing tags and an upcoming birthday with a gift idea noted">
+</div>
 
-What's their baby's birthday?
+You're heading to a friend's wedding and you know you're going to run into people you haven't seen in ten years. Somewhere between getting out of the Uber and finding your seat, the panic sets in. Where do they even live now? Do they have one kid or two? Wait, what are the kids' names?
 
-When did their dad die?
+You open Facebook. Their profile hasn't been touched since the wedding announcement. You text a mutual friend, sure they'll know. Five minutes go by. You don't have that much time. You open Instagram and scroll the grid instead, and there they are, holding two kids on a beach somewhere. Still no names.
 
-Wasn't she about to start a business?
+Different versions of this wedding example keep occurring. I've moved a lot and so have my friends. We've scattered across cities, gotten married, had kids, buried parents, changed careers. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
 
-These are the questions I've started asking myself more and more in the last five years or so, and I thought, there has to be a better way to remember the things that matter.
-
-I've moved a lot and so have my friends. We've scattered across cities, gotten married, had kids, buried parents, changed careers. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
-
-And every one of those relationships lives in the same place: the text message matrix. Somewhere between a Quince sales text, a scam attempt from an unknown number, and a group chat with 47 unread messages about nothing, the most important conversations in my life have the exact same interface as the least important ones.
+And every one of those relationships lives in the same place: the text message matrix. Somewhere between an Old Navy sales text, a scam attempt from an unknown number, and a group chat with 47 unread messages about nothing, the most important conversations in my life have the exact same interface as the least important ones.
 
 ## I manage communities for a living.
 
