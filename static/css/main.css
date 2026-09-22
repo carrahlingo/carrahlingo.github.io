@@ -1090,17 +1090,92 @@ a:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
-.photo-trio {
-  display: flex;
-  gap: 8px;
+.screenshot-carousel {
+  position: relative;
+  max-width: 640px;
   margin: 1.5rem auto;
 }
 
-.photo-trio img {
-  width: 32%;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+.screenshot-carousel .carousel-track {
+  position: relative;
+  width: 100%;
+}
+
+.screenshot-carousel .carousel-page {
+  display: none;
+  gap: 20px;
+}
+
+.screenshot-carousel .carousel-page.active {
+  display: flex;
+}
+
+.screenshot-carousel .carousel-page img {
+  flex: 1;
+  min-width: 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
   object-fit: cover;
+}
+
+.screenshot-carousel .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  color: var(--font-color);
+}
+
+.screenshot-carousel .carousel-arrow:hover {
+  background: #ffffff;
+}
+
+.screenshot-carousel .carousel-arrow-left {
+  left: -16px;
+}
+
+.screenshot-carousel .carousel-arrow-right {
+  right: -16px;
+}
+
+@media (max-width: 680px) {
+  .screenshot-carousel .carousel-arrow-left {
+    left: 6px;
+  }
+
+  .screenshot-carousel .carousel-arrow-right {
+    right: 6px;
+  }
+}
+
+.screenshot-carousel .carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.screenshot-carousel .carousel-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--border-color);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.screenshot-carousel .carousel-dot.active {
+  background: var(--accent-color);
 }
 
 .post-content figure {

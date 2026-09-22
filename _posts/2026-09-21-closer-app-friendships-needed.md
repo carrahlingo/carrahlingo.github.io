@@ -1,78 +1,95 @@
 ---
 layout: post
-title: "I've Spent Three Months Building the App My Friendships Needed"
+title: "I Built the App Your Friendships Have Been Missing"
 date: 2026-09-21
 tags: [AI, Community Building, App Development]
-image: /static/img/blog/closer-app/welcome-screen.png
+image: /static/img/blog/closer-app/hero-banner.png
 emoji: "📱"
-excerpt: "You're at a friend's wedding, about to run into people you haven't seen in ten years, and the panic sets in: what are their kids' names again? I manage communities for a living, but my own friendships never had the scaffolding I build for everyone else. So I built it myself, with an AI assistant called Claude Code."
-description: "Why I spent three months building Closer, a friendship app I designed and built myself with Claude Code, and what seven interviews taught me about what people actually want from their closest friendships."
-published: false
+excerpt: "You're at a friend's wedding, about to run into people you haven't seen in two years, and the panic sets in: what are their kids' names again? I manage communities for a living, but my own friendships never had the system I build for everyone else. So I built it myself, with an AI assistant called Claude Code."
+description: "Why I spent three months building Closer, a friendship app I designed and built myself with Claude Code, and what seven interviews taught me about what people want most from their closest friendships."
+published: true
 ---
 
+<img class="post-photo" src="/static/img/blog/closer-app/hero-banner.png" alt="Closer app logo and tagline 'for friends who care,' next to an illustration of friends hugging">
 
-<div class="photo-trio">
-  <img src="/static/img/blog/closer-app/welcome-screen.png" alt="Closer app welcome screen, with the tagline 'for friends who care.'">
-  <img src="/static/img/blog/closer-app/gwen-top-half.png" alt="A friend's profile in Closer, showing an update, nudge cadence, and family and relationships">
-  <img src="/static/img/blog/closer-app/gwen-occasions.png" alt="A friend's profile in Closer, showing tags and an upcoming birthday with a gift idea noted">
-</div>
+You're at a friend's wedding, about to run into people you haven't seen in two years. Panic sets in: where do they live now, and how old are their kids again? You check Facebook, untouched since 2020. You open Instagram instead, then remember: they don't post their kids' faces online. No photo to guess an age from.
 
-You're heading to a friend's wedding and you know you're going to run into people you haven't seen in ten years. Somewhere between getting out of the Uber and finding your seat, the panic sets in. Where do they even live now? Do they have one kid or two? Wait, what are the kids' names?
+Different versions of this keep happening, and the wedding scramble is the easy one. It's also the friend who lost a parent, and you want to check in without making them repeat what they said last time. It's the friend quietly trying to get pregnant, and you want to ask without asking the wrong way. It's the new city, new neighbors, the community you're building from scratch as an adult. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
 
-You open Facebook. Their profile hasn't been touched since the wedding announcement. You text a mutual friend, sure they'll know. Five minutes go by. You don't have that much time. You open Instagram and scroll the grid instead, and there they are, holding two kids on a beach somewhere. Still no names.
-
-Different versions of this wedding example keep occurring. I've moved a lot and so have my friends. We've scattered across cities, gotten married, had kids, buried parents, changed careers. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
-
-And every one of those relationships lives in the same place: the text message matrix. Somewhere between an Old Navy sales text, a scam attempt from an unknown number, and a group chat with 47 unread messages about nothing, the most important conversations in my life have the exact same interface as the least important ones.
+None of it lives in one place. It's split across text threads, Notes app reminders, Instagram DMs, WhatsApp groups, and more. None of them separate what matters from the noise.
 
 ## I manage communities for a living.
 
-I spent four years as president of a Clemson alumni chapter in Charleston, growing it from three events a year to eight. I've produced 30+ executive events a year for audiences from 30 to 1,000. I've built internal communities of 300 people who had never met IRL.
+I spent four years as president of the Clemson Young Alumni chapter in Charleston, S.C., where I grew football watch parties almost 7x in a single year. I've produced 30+ executive events a year for audiences from 30 to 1,000, with post-event surveys consistently scoring us above 90% approval. I've built internal communities of 300 people who had never met IRL. I know how to make people feel connected.
 
-I know how to make people feel connected. In the corporate world, there's a calendar, a Slack channel, a promotion plan, and a community manager to run the whole thing.
+In the corporate world, there's a calendar, a Slack channel, a promotion plan, and a community manager to run the whole thing. Your friendships don't come with any of that.
 
-Your friendships don't come with one. Mine are a priority, and I've kept them across Charleston, Atlanta, and now Brooklyn. But they've never had any of that scaffolding behind them. No calendar, no system, nothing but my own memory and lost words in my Notes app. I was doing the work of a community manager with none of the tools.
+## I interviewed people who are good at this.
 
-## I talked to people who are good at this.
-
-So before I designed a single screen, I did what I'd do for any client: qualitative discovery work. Seven in-depth interviews with people who prioritize their friendships. I wanted to know how they stay in touch and where it breaks down.
+Before I designed a single screen, I did what I'd do for any client: discovery work. Seven interviews with people who prioritize their friendships, to hear about how their friendships have evolved over the years, how they stay in touch, and where it breaks down.
 
 Discovery isn't about sample size, it's about saturation: you keep going until you stop hearing new things. I stopped at seven, because by then one answer had come up in every single conversation.
 
 *"I want to be the friend you reach out to when you need something."*
 
-Nobody said they wanted more friends. Nobody said they wanted to be better at texting back. They wanted to be the person you call when you really need someone. The one you tell first.
+Nobody said they wanted more friends. Nobody said they wanted more likes on a life update. They said they wanted to be the person you call when you really need someone. The one you call first.
 
-Here's the problem: you don't get to be that person by wanting it. You get to be that person by remembering. By knowing the business was supposed to launch in March, and asking about it in April. Being the person someone turns to in a crisis is earned in the small moments, over years of evidence that you were paying attention.
+Here's the problem: you don't get to be that person by wanting it. You get to be that person by remembering. Knowing their business was supposed to launch in March, and asking about it in April. That kind of trust is earned in small moments, over time.
 
-That's the gap. Not the caring. For people like us, caring is the easy part. The gap is that caring has nowhere to live.
+For people like us, caring is the easy part. The gap is that caring doesn't come with a system.
 
-## I built the scaffolding I was missing.
+## I built the system I was missing.
 
-I'm not an engineer. I have a communications degree. Over the past three months I've been building Closer, a real iOS app in React Native that I designed and built myself with an AI assistant called Claude Code.
+Over the past three months I've been building Closer, a real iOS app in React Native that I designed and built myself with an AI assistant called Claude Code. Here's a peek at what's in it and why.
 
-Here's what's in it, and more importantly, why.
+<div class="screenshot-carousel" id="screenshotCarousel">
+  <button type="button" class="carousel-arrow carousel-arrow-left" aria-label="Previous screenshots">&#10094;</button>
+  <div class="carousel-track">
+    <div class="carousel-page active">
+      <img src="/static/img/blog/closer-app/home-nudges.png" alt="Closer's home screen, showing three gentle nudges to check in on friends">
+      <img src="/static/img/blog/closer-app/new-update.png" alt="Closer's quick-capture screen for logging a new update about a friend">
+    </div>
+    <div class="carousel-page">
+      <img src="/static/img/blog/closer-app/gwen-top-half.png" alt="A friend's profile in Closer, showing an update, nudge cadence, and family and relationships">
+      <img src="/static/img/blog/closer-app/gwen-occasions.png" alt="A friend's profile in Closer, showing tags and an upcoming birthday with a gift idea noted">
+    </div>
+  </div>
+  <button type="button" class="carousel-arrow carousel-arrow-right" aria-label="Next screenshots">&#10095;</button>
+  <div class="carousel-dots">
+    <button type="button" class="carousel-dot active" aria-label="Go to screenshots 1 and 2"></button>
+    <button type="button" class="carousel-dot" aria-label="Go to screenshots 3 and 4"></button>
+  </div>
+</div>
+<script>
+(function () {
+  var root = document.getElementById("screenshotCarousel");
+  if (!root) return;
+  var pages = root.querySelectorAll(".carousel-page");
+  var dots = root.querySelectorAll(".carousel-dot");
+  var index = 0;
 
-**Gentle nudges to check in.** Some friendships are weekly. Some are twice a year. Both are real. Closer doesn't decide how often you should talk to someone. You do, per person.
+  function show(i) {
+    index = (i + pages.length) % pages.length;
+    pages.forEach(function (p, idx) { p.classList.toggle("active", idx === index); });
+    dots.forEach(function (d, idx) { d.classList.toggle("active", idx === index); });
+  }
 
-**Quiet memory for the people behind the dates.** Not a birthday alert. A place where their baby's birthday sits next to everything else I know about them, so I never separate the person from the details.
+  root.querySelector(".carousel-arrow-left").addEventListener("click", function () { show(index - 1); });
+  root.querySelector(".carousel-arrow-right").addEventListener("click", function () { show(index + 1); });
+  dots.forEach(function (d, idx) { d.addEventListener("click", function () { show(idx); }); });
+})();
+</script>
 
-**Structured space for the details that matter.** The business they mentioned once. The date their dad died. And general updates after a convo.
+- **Gentle nudges to check in.** Some friendships are weekly. Some are twice a year. Both are real. Closer doesn't decide how often you should talk to someone. You do, per person.
+- **Fast capture to beat forgetting.** Press [+] from anywhere, type or talk, pick their name, done. No hunting for the right screen, no losing it.
+- **Structured space to store details.** Updates, nudge cadence, family and relationships, groups, hobbies, occasions, and more, all organized in one place instead of scattered across my apps, post-its, and memory.
+- **Calm permission to be caught up.** When you're caught up on nudges, it says "All clear! Nudges will pop back up when it's time." No streaks. No feed. No mindless time spent in the app.
+- **Intentional design that ditches the feed.** No feed, no algorithm, no follower count. Closer isn't a social network, it's a private space for the people you love.
 
-**Calm permission to be caught up.** When you're caught up, it says "All clear! Nudges will pop back up when it's time." Then it leaves you alone. There's no streak to maintain and no red badge telling you you're behind on your own relationships.
-
-**Real privacy for the people you love.** No follower count, nothing public, nobody keeping score. Nobody sees who you're closest to, how often you reach out, or how long it's been. Closer is not a social network. It's built for the people you've known since middle school and for the new acquaintances you want to turn into friends.
-
-If I've opted in, Closer sends a short preview each Sunday evening of upcoming nudges to check in and key dates for the week. Turn it off and nothing comes.
+That's just a preview, more is coming soon. One example already live: if I've opted in, Closer sends a short preview each Sunday evening of upcoming nudges and occasions for the week.
 
 ## The unglamorous part is the whole thing.
 
-Every community I've ever built ran on the unglamorous stuff. The follow-up message, the reminder, the conversations that don't scale but matter anyway.
+Every community I've built ran on the unglamorous stuff: the follow-up message, the reminder, the conversation that doesn't scale but matters anyway. All seven people I interviewed wanted to be the friend you reach out to, and Closer is my attempt at giving you that.
 
-I've made my friendships a priority my whole life. I know what it costs to do it well with no help at all, and I'd like it to cost less for everyone else.
-
-All seven people I interviewed wanted to be the friend you reach out to. Closer is my attempt at empowering you to be just that.
-
-It's still in development. I'm looking for a small group of early testers, people who'd use it and tell me the truth about it. If that's you, send an email to carrahlingo@gmail.com.
-
-I'd rather hear it's wrong than hear it's nice.
+It's still in development, but I'm expecting to launch soon. If this sounds like an app you're excited to use, send me an email at [carrahlingo@gmail.com](mailto:carrahlingo@gmail.com).
