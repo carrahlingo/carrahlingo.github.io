@@ -26,7 +26,7 @@ In the corporate world, there's a calendar, a Slack channel, a promotion plan, a
 
 ## I interviewed people who are good at this.
 
-Before I designed a single screen, I did what I'd do for any client: discovery work. Seven interviews with people who prioritize their friendships, to hear about how their friendships have evolved over the years, how they stay in touch, and where it breaks down.
+Before I started building Closer, I did what I'd do for any client: discovery work. Seven interviews with people who prioritize their friendships, to hear about how their friendships have evolved over the years, how they stay in touch, and where it breaks down.
 
 Discovery isn't about sample size, it's about saturation: you keep going until you stop hearing new things. I stopped at seven, because by then one answer had come up in every single conversation.
 
@@ -82,7 +82,7 @@ Over the past three months I've been building Closer, a real iOS app in React Na
 
 - **Gentle nudges to check in.** Some friendships are weekly. Some are twice a year. Both are real. Closer doesn't decide how often you should talk to someone. You do, per person.
 - **Fast capture to beat forgetting.** Press [+] from anywhere, type or talk, pick their name, done. No hunting for the right screen, no losing it.
-- **Structured space to store details.** Updates, nudge cadence, family and relationships, groups, hobbies, occasions, and more, all organized in one place instead of scattered across my apps, post-its, and memory.
+- **Structured space to store details.** Updates, nudge cadence, family and relationships, groups, hobbies, occasions, and more, all organized in one place instead of scattered across your apps, post-its, and memory.
 - **Calm permission to be caught up.** When you're caught up on nudges, it says "All clear! Nudges will pop back up when it's time." No streaks. No feed. No mindless time spent in the app.
 - **Intentional design that ditches the feed.** No feed, no algorithm, no follower count. Closer isn't a social network, it's a private space for the people you love.
 
