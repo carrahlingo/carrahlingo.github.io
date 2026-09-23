@@ -105,22 +105,6 @@ title: Play
       </div>
     </article>
 
-    <!-- Lava lamp shelf -->
-    <article id="lava-lamp-shelf" class="shelf" aria-label="Lava lamp shelf">
-      <div class="shelf-bg">
-        <img class="shelf-img" src="{{ site.baseurl }}static/img/play/shelf-bar.jpg" alt="" aria-hidden="true">
-        <div class="shelf-surface">
-          <button class="shelf-item shelf-item--object lava-lamp"
-                  aria-label="Toggle lava lamp on and off"
-                  aria-pressed="false">
-            <img src="{{ site.baseurl }}static/img/play/lava lamp.png"
-                 alt="Lava lamp">
-          </button>
-        </div>
-      </div>
-      <p class="shelf-label">Click to set the mood</p>
-    </article>
-
     <!-- Bachelorette blog shelf -->
     <article id="bachelorette-shelf" class="shelf" aria-label="Bachelorette blog shelf">
       <div class="shelf-bg">
@@ -141,11 +125,6 @@ title: Play
 </section>
 
 <script>
-document.querySelector('.lava-lamp').addEventListener('click', function () {
-  this.classList.toggle('is-on');
-  this.setAttribute('aria-pressed', this.classList.contains('is-on'));
-});
-
 document.querySelector('.bluetooth-speaker').addEventListener('click', function () {
   var popup = document.querySelector('.spotify-popup');
   var iframe = document.getElementById('spotify-iframe');
