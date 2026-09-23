@@ -2014,6 +2014,18 @@ details summary::-webkit-details-marker {
   }
 }
 
+#closer-shelf .shelf-surface {
+  bottom: 9%;
+}
+
+#closer-shelf .shelf-item {
+  flex: 0 1 28%;
+}
+
+#closer-shelf .shelf-item img {
+  max-height: 480px;
+}
+
 #blog-shelf .shelf-surface {
   bottom: 9%;
 }
