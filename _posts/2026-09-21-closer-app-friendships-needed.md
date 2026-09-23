@@ -16,7 +16,7 @@ You're at a friend's wedding, about to run into people you haven't seen in two y
 
 Different versions of this keep happening, and the wedding scramble is the easy one. It's also the friend who lost a parent, and you want to keep track of your check-ins. It's the friend who's finishing up medical school, and you want to chat about life without making them repeat what they said last time. It's the new city, new neighbors, the community you're building from scratch as an adult. Somewhere in all of it, the details started outrunning what any one person can hold in their head.
 
-None of it lives in one place. It's split across text threads, Notes app reminders, Instagram DMs, WhatsApp groups, and more. None of them separate what matters from the noise.
+None of it lives in one place. It's split across text threads, Notes app reminders, Instagram DMs, WhatsApp groups, and more. None of them separate what matters from the noise. This bugged me more than it should have, because keeping people connected is my job.
 
 ## I manage communities for a living.
 
@@ -34,7 +34,7 @@ Discovery isn't about sample size, it's about saturation: you keep going until y
 
 Nobody said they wanted more friends. Nobody said they wanted more likes on a life update. They said they wanted to be the person you call when you really need someone. The one you call first.
 
-Here's the problem: you don't get to be that person by wanting it. You get to be that person by remembering. Knowing their business was supposed to launch in March, and asking about it in April. That kind of trust is earned in small moments, over time.
+Here's the problem: you don't get to be that person by wanting it. You get to be that person by remembering. When you forget, you still ask, but it comes out vague: "How's the business idea going?" instead of "Did you end up going with the graphic designer you told me about?" Both are kind. But only one shows you've been paying attention, and that's what makes people feel seen. Do that enough, in small moments over time, and you become the friend they call first.
 
 For people like us, caring is the easy part. The gap is that caring doesn't come with a system.
 
