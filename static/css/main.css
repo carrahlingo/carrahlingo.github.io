@@ -14,7 +14,7 @@
   --accent-color: #444444;
   --icon-color: #111111;
   --link-color: #444444;
-  --link-highlight: rgba(0, 0, 0, 0.10);
+  --link-highlight: rgba(192, 181, 255, 0.55); /* Closer lavender #c0b5ff */
   --accent-secondary-color: #666666;
 }
 
@@ -2380,4 +2380,17 @@ details summary::-webkit-details-marker {
     display: inline-block;
     text-align: left;
   }
+}
+
+/* Carousel images that link out (e.g. to the original Instagram post) */
+.screenshot-carousel .carousel-page .carousel-link {
+  flex: 1;
+  min-width: 0;
+  display: block;
+  box-shadow: none;
+}
+
+.screenshot-carousel .carousel-page .carousel-link img {
+  display: block;
+  width: 100%;
 }
