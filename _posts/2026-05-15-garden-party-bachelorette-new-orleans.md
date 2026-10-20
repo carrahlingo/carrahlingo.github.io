@@ -5,7 +5,7 @@ date: 2026-05-15
 tags: [Event Planning, Travel]
 image: /static/img/blog/bachelorette-nola/NOLA.jpeg
 emoji: "⚜️"
-excerpt: "By now you've probably seen the discourse around expensive, extravagant and over-the-top bachelorette parties. They've become a cultural flashpoint: luxury destination weekends, elaborate theme requirements, color-coordinated outfits, itineraries packed from 8 a.m. to 2 a.m."
+excerpt: "By now you've probably seen the discourse around over-the-top bachelorette parties. I don't think the answer is to abolish them. I think the answer is to plan a better one."
 description: "How I planned a New Orleans bachelorette for a lowkey bride: six girls, one long weekend, and a trip scaled to the people in the room."
 published: true
 ---

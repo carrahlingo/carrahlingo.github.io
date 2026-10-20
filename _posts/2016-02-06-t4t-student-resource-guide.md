@@ -5,7 +5,7 @@ date: 2016-02-06
 tags: [Leadership Development, Publication]
 image: /static/img/blog/t4t/page-01.png
 emoji: "🐅"
-excerpt: "I had the opportunity to contribute to the writing, editing, and design of the National Tigers for Tigers Coalition Resource Guide — a handbook we shipped out to our student organizations across the country."
+excerpt: "I helped write, edit, and design the National Tigers for Tigers Coalition Resource Guide, a handbook we shipped to student organizations across the country."
 description: "Behind the writing, editing, and design of the National Tigers for Tigers Coalition Resource Guide — a student handbook shipped to chapters nationwide."
 ---
 

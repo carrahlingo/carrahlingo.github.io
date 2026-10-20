@@ -75,6 +75,16 @@ title: Carrah Lingo's Blog
   margin: 0;
   line-height: 1.6;
 }
+
+/* Desktop previews stay at 2 lines, even if a future excerpt runs long */
+@media (min-width: 800px) {
+  .blog-entry-excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
 </style>
 
 <div class="blog-page">

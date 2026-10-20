@@ -5,7 +5,7 @@ date: 2022-12-05
 tags: [Publication]
 image: /static/img/blog/magazine/berkeley 1.png
 emoji: "📚"
-excerpt: "History buffs and Lowcountry locals might find my latest PowerSource feature interesting! I spent a day at the Berkeley County Museum &amp; Heritage Center to check out..."
+excerpt: "History buffs and Lowcountry locals might find my latest PowerSource feature interesting! I spent a day at the Berkeley County Museum &amp; Heritage Center."
 description: "My PowerSource Magazine feature on Berkeley County Museum & Heritage Center — where Lowcountry history comes alive for locals and curious visitors alike."
 ---
 
