@@ -1809,11 +1809,7 @@ details summary::-webkit-details-marker {
 }
 
 #magazine-shelf .shelf-item {
-  flex: 0 1 40%;
-}
-
-#magazine-shelf .shelf-item img {
-  max-height: 240px;
+  flex: 0 0 min(72%, 360px);
 }
 
 #magazine-shelf-2 .shelf-surface {
@@ -1821,11 +1817,7 @@ details summary::-webkit-details-marker {
 }
 
 #magazine-shelf-2 .shelf-item {
-  flex: 0 1 40%;
-}
-
-#magazine-shelf-2 .shelf-item img {
-  max-height: 240px;
+  flex: 0 0 min(72%, 360px);
 }
 
 #young-alumni-shelf .shelf-surface {
@@ -2188,6 +2180,42 @@ details summary::-webkit-details-marker {
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
 }
 
+/* Open magazine variant — a two-page spread with a center fold and page edges */
+.shelf-item--open-mag {
+  position: relative;
+}
+
+.shelf-item--object.shelf-item--open-mag img {
+  width: 100%;
+  max-height: none;
+  border-radius: 1px;
+  box-shadow:
+    0 1px 0 #f3efe6,
+    0 2px 0 #ddd6c8,
+    0 3px 0 #f3efe6,
+    0 4px 0 #cfc7b7;
+}
+
+/* Center fold shading + soft curl at the outer edges */
+.shelf-item--open-mag::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to right,
+      rgba(0, 0, 0, 0.10) 0%,
+      rgba(0, 0, 0, 0) 4%,
+      rgba(0, 0, 0, 0) 43%,
+      rgba(0, 0, 0, 0.10) 47.5%,
+      rgba(0, 0, 0, 0.32) 49.8%,
+      rgba(255, 255, 255, 0.10) 50.4%,
+      rgba(0, 0, 0, 0.12) 52.5%,
+      rgba(0, 0, 0, 0) 57%,
+      rgba(0, 0, 0, 0) 96%,
+      rgba(0, 0, 0, 0.10) 100%);
+}
+
 /* Framed variant — CSS picture frame with white mat */
 .shelf-item--framed {
   background: #fff;
@@ -2268,13 +2296,7 @@ details summary::-webkit-details-marker {
     max-height: 160px;
   }
 
-  #magazine-shelf .shelf-item img {
-    max-height: 200px;
-  }
 
-  #magazine-shelf-2 .shelf-item img {
-    max-height: 200px;
-  }
 }
 
 /* Responsive — extra small */
@@ -2299,13 +2321,7 @@ details summary::-webkit-details-marker {
     max-height: 120px;
   }
 
-  #magazine-shelf .shelf-item img {
-    max-height: 150px;
-  }
 
-  #magazine-shelf-2 .shelf-item img {
-    max-height: 150px;
-  }
 }
 
 /* Reduced motion */
