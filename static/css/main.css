@@ -1273,6 +1273,12 @@ a:focus {
   box-shadow: inset 0 -0.9em 0 var(--link-highlight);
 }
 
+/* Bootstrap draws a blue focus ring on every click; keep it for keyboard users only */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
 /* Keep header/navigation links clean (no highlight bar). */
 .navbar a,
 .navbar a:hover,
