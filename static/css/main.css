@@ -1702,6 +1702,15 @@ details summary::-webkit-details-marker {
   margin: 0 auto;
 }
 
+/* Center a lone shelf on the last row of the two-column layout */
+@media (min-width: 768px) {
+  .shelf-container > .shelf:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: calc(50% - 20px);
+  }
+}
+
 /* Override site-wide link underline highlight on shelf items */
 .shelf-page .shelf-item,
 .shelf-page .shelf-item:hover,
@@ -1760,15 +1769,18 @@ details summary::-webkit-details-marker {
 }
 
 #projects-shelf .shelf-surface,
+#strategy-shelf .shelf-surface,
 #experience-shelf .shelf-surface {
   bottom: 9%;
 }
 
-#projects-shelf .shelf-item {
+#projects-shelf .shelf-item,
+#strategy-shelf .shelf-item {
   flex: 0 1 65%;
 }
 
-#projects-shelf .shelf-item img {
+#projects-shelf .shelf-item img,
+#strategy-shelf .shelf-item img {
   max-height: 480px;
 }
 
@@ -2288,7 +2300,8 @@ details summary::-webkit-details-marker {
     max-height: 160px;
   }
 
-  #projects-shelf .shelf-item img {
+  #projects-shelf .shelf-item img,
+  #strategy-shelf .shelf-item img {
     max-height: 280px;
   }
 
@@ -2317,7 +2330,8 @@ details summary::-webkit-details-marker {
     max-height: 120px;
   }
 
-  #projects-shelf .shelf-item img {
+  #projects-shelf .shelf-item img,
+  #strategy-shelf .shelf-item img {
     max-height: 220px;
   }
 
