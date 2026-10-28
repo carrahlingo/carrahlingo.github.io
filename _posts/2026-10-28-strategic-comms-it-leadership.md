@@ -16,7 +16,7 @@ In 2024, I was a communications and change management consultant at [Cadmus](htt
 
 So I started with a communications strategy, then built a small community to bring it to life: the Workforce Development Employee Advisory Group.
 
-## Pick the Right Messenger
+## Secure Executive Sponsors
 
 Before recruiting members, I lined up executive sponsors and built a plan. I also invited a lead from the division’s workforce development team to join the group, so we were partnering with the right people from the start and no one was working against each other. Then I wrote the call for volunteers and had the sponsors send it themselves.
 
