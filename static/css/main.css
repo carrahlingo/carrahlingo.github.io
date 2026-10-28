@@ -447,6 +447,24 @@ a.nostyle:visited {
   background-color: transparent;
 }
 
+/* Hovering a tab gives it the same lavender highlight as body links */
+.navbar-default .navbar-nav > li:not(.active):not(.nav-home) > a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.45em;
+  margin-top: -0.5em;
+  background-color: var(--link-highlight);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.navbar-default .navbar-nav > li:not(.active):not(.nav-home) > a:hover::after,
+.navbar-default .navbar-nav > li:not(.active):not(.nav-home) > a:focus-visible::after {
+  opacity: 1;
+}
+
 .navbar-default .navbar-nav > .active > a::after {
   content: '';
   display: block;
