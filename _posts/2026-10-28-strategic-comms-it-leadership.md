@@ -2,7 +2,7 @@
 layout: post
 title: "The Power of Strategic Comms: Getting IT Leadership to Say Yes"
 date: 2026-10-28
-tags: [Strategic Communications, Community Building, Employee Engagement, Internal Communication]
+tags: [Strategic Communications, Community Building, Employee Engagement]
 image: /static/img/blog/strategic-comms/strategic-comms-header.jpg
 emoji: "📣"
 excerpt: "At IRS IT, I built an employee advisory group, coached volunteers to pitch executives, and earned approval for three initiatives. Here’s the strategy behind the yes."

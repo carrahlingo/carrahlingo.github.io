@@ -69,6 +69,10 @@ title: Carrah Lingo's Blog
   color: var(--accent-secondary-color);
   margin: 0 0 8px;
 }
+.blog-entry-tags {
+  display: block;
+  margin-top: 2px;
+}
 .blog-entry-excerpt {
   font-size: 0.9em;
   color: var(--accent-secondary-color);
@@ -111,7 +115,7 @@ title: Carrah Lingo's Blog
       {% if post.emoji %}<div class="blog-entry-emoji">{{ post.emoji }}</div>{% endif %}
       <div class="blog-entry-body">
         <p class="blog-entry-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
-        <p class="blog-entry-meta">{{ post.date | date: "%B %e, %Y" }}{% if post.tags.size > 0 %} · {{ post.tags | join: ", " }}{% endif %}</p>
+        <p class="blog-entry-meta">{{ post.date | date: "%B %e, %Y" }} · {% include read-time.html content=post.content %}{% if post.tags.size > 0 %}<span class="blog-entry-tags">{{ post.tags | join: ", " }}</span>{% endif %}</p>
         <p class="blog-entry-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
       </div>
     </div>
