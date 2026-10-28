@@ -12,7 +12,7 @@ description: "How I built an IRS IT employee advisory group, coached volunteers 
 
 <img class="post-photo" src="/static/img/blog/strategic-comms/strategic-comms-header.jpg" alt="The Power of Strategic Comms: Getting IT Leadership to Say Yes">
 
-In 2024, I was a communications and change management consultant at [Cadmus](https://cadmusgroup.com/), supporting the Applications Development division of the IRS’s IT organization. Leadership wanted employees growing their technical skills. What they didn’t have was time to find out what employees needed and found useful.
+In 2024, I was a communications and change management consultant at [Cadmus](https://cadmusgroup.com/), supporting the Applications Development division of the IRS’s IT organization. Leadership wanted employees growing their technical skills, but employees weren’t participating in workforce development initiatives. What leadership didn’t have was time to find out what employees needed and found useful.
 
 So I started with a communications strategy, then built a small community to bring it to life: the Workforce Development Employee Advisory Group.
 
@@ -50,7 +50,7 @@ Most of them weren’t comfortable presenting to executives, so I built the pres
 
 We didn’t just pitch ideas, we pitched plans. Our Teams channel proposal had clear goals, success metrics (monthly active users, engagement, quarterly pulse surveys), a five-week rollout and a promotion plan.
 
-Leadership approved three initiatives:
+In under three months, leadership approved three initiatives:
 
 - A Microsoft Teams channel to connect employees around workforce development
 - A redesigned, rebranded SharePoint site so training was easy to find
