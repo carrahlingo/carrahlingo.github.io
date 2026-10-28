@@ -1679,6 +1679,116 @@ details summary::-webkit-details-marker {
 /* Shelf page — shared layout for Play & Work
 -------------------------------------------------- */
 
+/* Kudos — wall of colleague note cards
+-------------------------------------------------- */
+
+.kudos-wall {
+  display: grid;
+  /* Four tracks, each card spans two, so an odd last card can sit centered */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 40px 36px;
+  max-width: 860px;
+  margin: 44px auto 0;
+}
+
+.kudos-card {
+  grid-column: span 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 1.4;
+  margin: 0;
+  padding: 11% 13%;
+  text-align: center;
+  background: var(--card) center / 100% 100% no-repeat;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.18));
+  transform: rotate(var(--tilt, 0deg));
+  transition: transform 250ms ease, filter 250ms ease;
+}
+
+/* Lifts on hover, same as the shelf items */
+.kudos-card:hover {
+  transform: rotate(var(--tilt, 0deg)) translateY(-6px) scale(1.04);
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kudos-card {
+    transition: none;
+  }
+}
+
+/* An odd card out sits centered under the others */
+.kudos-card:last-child:nth-child(odd) {
+  grid-column: 2 / span 2;
+}
+
+.kudos-pin {
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -14px;
+  background: url('../img/kudos/wood-pin.svg') center / contain no-repeat;
+}
+
+.kudos-quote {
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: #2b2b2b;
+}
+
+.kudos-caption {
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: #6b6b6b;
+}
+
+.kudos-caption > span {
+  display: block;
+}
+
+.kudos-name {
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.kudos-title {
+  font-style: italic;
+}
+
+.kudos-shared {
+  margin-top: 2px;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.kudos-more {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--accent-secondary-color);
+}
+
+@media (max-width: 680px) {
+  .kudos-wall {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 440px;
+    margin-top: 32px;
+  }
+
+  .kudos-card,
+  .kudos-card:last-child:nth-child(odd) {
+    grid-column: auto;
+  }
+}
+
 .page-intro {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
