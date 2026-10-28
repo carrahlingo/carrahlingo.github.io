@@ -44,7 +44,7 @@ For most of 2016 and into 2017, I served as Vice President, supporting the Presi
 
 Then, midway through 2017, our President left the organization.
 
-At that point, I had two choices: let the org go dormant, or take the wheel. I became President and immediately started thinking about what it would take to not just keep things running, but actually grow: the events, the community, and the team behind it all.
+At that point, I had two choices: let the org go dormant, or take the wheel. I became President and immediately started thinking about what it would take to not just keep things running, but grow: the events, the community, and the team behind it all.
 
 ## Building a Team That Wants to Be There
 
@@ -64,7 +64,7 @@ By 2018, my first full year as President, we had gone from **3 events annually t
 
 The harbor cruise alone grew from roughly **60 attendees in 2017 to 120 in 2018**, double the turnout in a single year. Meanwhile, our Facebook following **more than doubled** over my tenure, and in 2019 I launched an Instagram account from scratch that grew to **185 followers** within its first year.
 
-None of that happened because of a big budget or a formal infrastructure. It happened because we built genuine relationships, showed up consistently, created content that connected, and made events people actually wanted to attend.
+None of that happened because of a big budget or a formal infrastructure. It happened because we built genuine relationships, showed up consistently, created content that connected, and made events people wanted to attend.
 
 ## What Four Years Taught Me
 

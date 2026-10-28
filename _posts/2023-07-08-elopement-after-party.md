@@ -23,7 +23,7 @@ In March 2023, we eloped with our immediate family on Catalina Island. But we st
 
 We had a groovy California vibe to our party that matched my personal taste as well as the interior design of our rooftop lounge. At the entrance, guests were encouraged to choose from a pair of retro sunglasses (both these and the tablecloth were purchased on Amazon) to complement their look.
 
-I had a goal to reduce waste, so I tried to order things we'd actually use again. We still have some matchbooks (purchased on Etsy) in our bathroom today! We rented vintage coolers for all the beer, seltzers and non-alcoholic drinks, and the baskets were repurposed from our West Elm wedding registry.
+I had a goal to reduce waste, so I tried to order things we'd use again. We still have some matchbooks (purchased on Etsy) in our bathroom today! We rented vintage coolers for all the beer, seltzers and non-alcoholic drinks, and the baskets were repurposed from our West Elm wedding registry.
 
 ## Support Local
 

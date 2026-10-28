@@ -45,7 +45,7 @@ I had the vision. I just had no idea how easily Claude would be able to execute 
 
 ## Step 2: Get Set Up
 
-Before I could start building anything, I needed to acquire the appropriate tools. This meant creating a GitHub account (where the site's code would live), downloading VS Code (the code editor), and installing Ghostty (my terminal of choice). I also set up a Claude account and got Claude Code running in my terminal. If you're coming from a world of Squarespace, Canva and Google Docs, this step is where it starts to feel real. You're actually entering the "building things with code" world and it feels like you're hacking into the mainframe (lol).
+Before I could start building anything, I needed to acquire the appropriate tools. This meant creating a GitHub account (where the site's code would live), downloading VS Code (the code editor), and installing Ghostty (my terminal of choice). I also set up a Claude account and got Claude Code running in my terminal. If you're coming from a world of Squarespace, Canva and Google Docs, this step is where it starts to feel real. You're entering the "building things with code" world and it feels like you're hacking into the mainframe (lol).
 
 From there, Claude helped me get started with Jekyll, a tool that turns simple text files into a full website, and GitHub Pages, which hosts it for free at your own custom domain.
 

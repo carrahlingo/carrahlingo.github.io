@@ -20,7 +20,7 @@ By now you've probably seen the discourse around expensive, extravagant and over
 
 But as someone who loves an excuse to celebrate and values new experiences, I don't think the answer is to abolish the bachelorette party. I think the answer is to plan a better one.
 
-Here's how this one started: she wasn't going to have a bachelorette party at all. My friend, the bride-to-be, is the kind of person who would happily skip the fanfare and go straight to being married. So I did what any good friend would do: I encouraged her to pick a destination and offered to do all the planning. The catch was that I had to make it actually worth her while. No stress, no over-the-top expectations, nothing that would make her feel like a burden to the people she loves.
+Here's how this one started: she wasn't going to have a bachelorette party at all. My friend, the bride-to-be, is the kind of person who would happily skip the fanfare and go straight to being married. So I did what any good friend would do: I encouraged her to pick a destination and offered to do all the planning. The catch was that I had to make it worth her while. No stress, no over-the-top expectations, nothing that would make her feel like a burden to the people she loves.
 
 Six girls. One long weekend. New Orleans in April. That was the whole brief.
 
@@ -30,7 +30,7 @@ The bachelorette party discourse tends to focus on extremes: the wildly expensiv
 
 A few things I've come to believe about planning these well:
 
-**Know your audience.** A party that's perfect for one bride would be a nightmare for another. Before you book anything, get honest about who she actually is and what she'd actually enjoy — not the version of a bachelorette party that looks good on Instagram.
+**Know your audience.** A party that's perfect for one bride would be a nightmare for another. Before you book anything, get honest about who she is and what she'd enjoy — not the version of a bachelorette party that looks good on Instagram.
 
 **Talk about money.** Transparency early saves friendships later. Talk to the bride about her expectations and poll the group (individually) on what they'd feel comfortable spending. How will food and drinks in the house be split? What's the bride responsible for? This looks different for everyone and that's okay.
 
@@ -57,7 +57,7 @@ I Ubered to Whole Foods to snag pink, orange and white flower arrangements right
 
 I also recycled a lot of party decor I've collected over the years, which kept costs down without sacrificing the look. Things like confetti, decorative butterflies, gold garland that I reuse for every party I host. A bridal veil, sunglasses and a headband rounded out the bride's accessories for the weekend.
 
-Nothing over the top, nothing that required a big budget or a party rental company. Just a few well-chosen things that made the space feel like the weekend was actually for her.
+Nothing over the top, nothing that required a big budget or a party rental company. Just a few well-chosen things that made the space feel like the weekend was all for her.
 
 The bride wanted a spa night for the last evening, so I supplied face masks, headbands, lip masks and sleep masks. They were the perfect pop of color!
 
@@ -77,7 +77,7 @@ The bride wanted a spa night for the last evening, so I supplied face masks, hea
   <img src="/static/img/blog/bachelorette-nola/garden.jpeg" alt="New Orleans Botanical Garden">
 </div>
 
-**Saturday** we did afternoon tea at the [Ritz](https://ritzcarltonneworleans.realtimereservation.com/) and went to [French Quarter Fest](https://frenchquarterfest.org/) (we decided to go the day before.) Then, everyone kind of did their own thing for a few hours, which sounds chaotic but actually worked perfectly for a small group of adults who know how to be in a city. We finished the weekend with a spa night at home, while a few ladies learned how to play Mahjong.
+**Saturday** we did afternoon tea at the [Ritz](https://ritzcarltonneworleans.realtimereservation.com/) and went to [French Quarter Fest](https://frenchquarterfest.org/) (we decided to go the day before.) Then, everyone kind of did their own thing for a few hours, which sounds chaotic but worked perfectly for a small group of adults who know how to be in a city. We finished the weekend with a spa night at home, while a few ladies learned how to play Mahjong.
 
 ## The Takeaway
 

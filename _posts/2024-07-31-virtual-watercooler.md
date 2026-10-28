@@ -6,7 +6,7 @@ tags: [Employee Engagement, Internal Communication, Community Building]
 image: /static/img/blog/watercooler/Watercooler blog image.jpg
 emoji: "💧"
 excerpt: "A lot of the work I do as a Consultant at The Cadmus Group centers around improving employee engagement in the federal government space..."
-description: "5 steps to build a virtual watercooler your remote team will actually use — the strategy that tripled engagement in a large federal IT organization."
+description: "5 steps to build a virtual watercooler your remote team will use — the strategy that tripled engagement in a large federal IT organization."
 ---
 
 
@@ -49,6 +49,6 @@ A successful launch of the Teams channel will largely depend on how well and how
 
 Lastly, leadership should set an example and post to the virtual watercooler. Managers are encouraged to take turns posting once a month, in addition to engaging with posts by reacting to them or leaving comments.
 
-Sharing photos of your weekend plans, asking valuable questions, and planning in-office meet ups are excellent ways to get the conversation going beyond operations. Meaningful engagement will be the key to making it a place employees will actually want to visit and contribute to.
+Sharing photos of your weekend plans, asking valuable questions, and planning in-office meet ups are excellent ways to get the conversation going beyond operations. Meaningful engagement will be the key to making it a place employees will want to visit and contribute to.
 
 It will take some time for folks to get used to the new space, but with consistency and meaningful engagements, it'll be an employee favorite in no time!
