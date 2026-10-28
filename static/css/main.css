@@ -1837,11 +1837,11 @@ details summary::-webkit-details-marker {
 }
 
 #t4t-shelf .shelf-item {
-  flex: 0 1 40%;
+  flex: 0 1 50%;
 }
 
 #t4t-shelf .shelf-item img {
-  max-height: 240px;
+  max-height: 300px;
 }
 
 .shelf-plant {
@@ -2296,6 +2296,10 @@ details summary::-webkit-details-marker {
     max-height: 280px;
   }
 
+  #t4t-shelf .shelf-item img {
+    max-height: 280px;
+  }
+
 
 }
 
@@ -2318,6 +2322,10 @@ details summary::-webkit-details-marker {
   }
 
   #experience-shelf .shelf-item img {
+    max-height: 220px;
+  }
+
+  #t4t-shelf .shelf-item img {
     max-height: 220px;
   }
 
