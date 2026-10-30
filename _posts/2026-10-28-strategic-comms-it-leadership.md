@@ -5,14 +5,14 @@ date: 2026-10-28
 tags: [Strategic Communications, Community Building, Employee Engagement]
 image: /static/img/blog/strategic-comms/strategic-comms-header.jpg
 emoji: "📣"
-excerpt: "At IRS IT, I built an employee advisory group, coached volunteers to pitch executives, and earned approval for three initiatives. Here’s the strategy behind the yes."
-description: "How I built an IRS IT employee advisory group, coached volunteers to pitch executives, and earned approval for three workforce development initiatives."
+excerpt: "At a federal agency, I built an employee advisory group, coached volunteers to pitch executives, and earned approval for three initiatives. Here’s the strategy behind the yes."
+description: "How I built an employee advisory group in a federal IT organization, coached volunteers to pitch executives, and earned approval for three workforce development initiatives."
 ---
 
 
 <img class="post-photo" src="/static/img/blog/strategic-comms/strategic-comms-header.jpg" alt="The Power of Strategic Comms: Getting IT Leadership to Say Yes">
 
-In 2024, I was a communications and change management consultant at [Cadmus](https://cadmusgroup.com/), supporting the Applications Development division of the IRS’s IT organization. Leadership wanted employees growing their technical skills, but employees weren’t participating in workforce development initiatives. What leadership didn’t have was time to find out what employees needed and found useful.
+In 2024, I was a communications and change management consultant at [Cadmus](https://cadmusgroup.com/), supporting the Applications Development division of a federal agency’s IT organization. The agency was moving to the cloud, and leadership wanted employees to grow their technical skills to get there. But employees weren’t participating in workforce development initiatives, and leadership didn’t have time to find out what employees needed and found useful.
 
 So I started with a communications strategy, then built a small community to bring it to life: the Workforce Development Employee Advisory Group.
 
@@ -56,13 +56,13 @@ In under three months, leadership approved three initiatives:
 - A redesigned, rebranded SharePoint site so training was easy to find
 - An employee success story series
 
-We knew the Teams channel could work, because our team had already built a [virtual watercooler](/virtual-watercooler.html) in Teams for IRS IT.
+We knew the Teams channel could work, because our team had already built a [virtual watercooler](/virtual-watercooler.html) in Teams for the agency’s IT organization.
 
 ## Follow Through Where People Can See It
 
 Once leadership said yes, I ran an intranet audit, restructured the SharePoint site’s content, and wrote articles. Visits to the SharePoint site went up, and employees started posting in the new Teams channel every week. I also partnered with the division’s workforce development leads to tackle the bigger issues employees raised, like Java sandboxes and mentor matching.
 
-The director also shared our progress at his monthly Ask Me Anything sessions, so the whole organization could see that speaking up led somewhere. Employees finally had a direct line to the people who could change things.
+The director also shared our progress at his monthly Ask Me Anything sessions, so the whole organization could see that speaking up led somewhere. Employees finally had a direct line to the people who could change things. Leadership also had a clearer path to getting their teams ready for the cloud.
 
 ## What I Learned
 
